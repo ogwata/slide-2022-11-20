@@ -7,146 +7,158 @@
 /* @import '_toc'; */
 /* ... */
 html {
-  font-family: 'Noto', 'YuGothic', 'Yu Gothic', 'Meiryo', sans-serif;
-  font-feature-settings: 'palt' on;
+  font-family: "Optima", "Candara", "YuGothic", "Yu Gothic", "Meiryo", sans-serif;
   font-size: 150%;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.4;
+  text-spacing: auto;
 }
 
 @page {
   size: 210mm 148mm;
-  margin: 12mm 0 0;
-  padding: 0 0 18mm;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
+  margin: 12mm 15mm;
+  font-family: "Optima", "Candara", "YuGothic", "Yu Gothic", "Meiryo", sans-serif;
   font-size: 11pt;
   line-height: 1.2;
+
   @top-right-corner {
     margin-top: 7mm;
-    margin-bottom: 1mm;
-    margin-left: -10mm;
     content: counter(page);
   }
+
   @top-right {
     margin-top: 7mm;
-    margin-bottom: 1mm;
-    margin-right: 15mm;
-    content: env(pub-title);
+    margin-right: 10mm;
+    content: string(h1title, first-except);
   }
 }
-@page :first {
+
+@page cover {
   margin: 0;
-  padding: 0;
+
   @top-right-corner {
     content: none;
   }
+
   @top-right {
     content: none;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+@media print {
+  body {
+    margin: 0;
+  }
 }
 
 /* 表紙 */
-.cover {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+body>section:first-child {
+  page: cover;
   background-color: #212057;
+  background-image: url(https://vivliostyle.org/assets/header-image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15mm;
   color: #fff;
-}
-.cover h1 {
-  font-weight: 600;
-  font-size: 280%;
-  text-align: center;
-}
-.cover h2 {
-  font-size: 125%;
-  font-weight: 500;
-  text-align: center;
-}
-.cover a {
-  color: inherit;
+
+  @media print {
+    height: 100vh;
+  }
+
+  h1 {
+    color: inherit;
+    font-weight: 600;
+    font-size: 220%;
+    text-align: center;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: 130%;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  a {
+    color: inherit;
+  }
 }
 
 /* 目次 */
-.toc {
+
+section.toc {
   page-break-before: always;
-  padding: 0 15mm;
-}
-.toc h2 {
-  color: #06a;
-  font-size: 120%;
-  font-weight: 600;
-  margin: 0;
-}
-.toc > ol {
-  font-size: 83%;
-  margin: 0;
-}
-.toc > ol > li {
-  padding-top: 0.125em;
-  padding-bottom: 0.125em;
-}
-.toc li a {
-  text-decoration: none;
-}
-.toc ol li a::after {
-  content: '　' target-counter(attr(href url), page);
-}
-.toc > ol > li > ol {
-  font-size: 83%;
+
+  h1 {
+    color: #06a;
+    font-size: 120%;
+    font-weight: 600;
+    margin: 0 0 0.5em;
+  }
+
+  >ol {
+    font-size: 83%;
+    margin: 0;
+
+    >li {
+      padding-top: 0.125em;
+      padding-bottom: 0.125em;
+    }
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  ol li a::after {
+    content: '　'target-counter(attr(href url), page);
+  }
+
+  >ol>li>ol {
+    font-size: 83%;
+  }
 }
 
 /* Section */
-body > section {
-  padding: 15mm;
-  page-break-before: always;
-  height: 100vh;
-  /* position: relative; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-body > section > h2 {
-  color: #e84e39;
+
+h1 {
+  string-set: h1title content();
+  color: #06A;
   font-size: 250%;
   font-weight: 600;
-  padding-top: 30mm;
+  margin-top: 30mm;
   page-break-after: avoid;
   page-break-before: always;
   page-break-inside: avoid;
 }
 
 /* Subsections */
-h3 {
-  color: #e84e39;
+
+h2 {
+  color: #06A;
   font-size: 150%;
   font-weight: 600;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
   page-break-after: avoid;
   page-break-before: always;
   page-break-inside: avoid;
 }
 
-h4 {
-  color: #e84e39;
-  font-size: 133%;
+h3 {
+  color: #06A;
+  font-size: 125%;
   font-weight: 600;
-  text-align: center;
-  page-break-after: avoid;
-  page-break-before: always;
   page-break-inside: avoid;
 }
 
 p {
   margin-top: 0.67em;
+  margin-bottom: 0;
   page-break-inside: avoid;
 }
 
@@ -217,18 +229,33 @@ figcaption {
 }
 
 blockquote {
+  color: #57606a;
   line-height: 1.33;
-  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 0.25em solid #d0d7de;
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 0.67em;
-}
 
-blockquote::before {
-  color: #d6a;
-  content: '❝';
-  float: left;
-  font-size: 200%;
-  margin-left: -0.83em;
-  margin-top: -0.25em;
+  &.example {
+    font-family: YuMincho, Yu Mincho, serif;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: none;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: 2px 0;
+
+    p {
+      margin: 0;
+      text-align: justify;
+    }
+
+    b,
+    strong {
+      font-family: YuGochic, Yu Gothic, sans-serif;
+    }
+  }
 }
 
 a[href^='#'] {
@@ -237,7 +264,7 @@ a[href^='#'] {
 }
 
 a[href^='#']::after {
-  content: '(p.' target-counter(attr(href url), page) ')';
+  content: '(p.'target-counter(attr(href url), page) ')';
   font-size: 90%;
 }
 
@@ -265,7 +292,7 @@ p.project-desc {
   font-size: 83%;
 }
 
-p.project-desc + ul {
+p.project-desc+ul {
   margin-top: 0.25em;
 }
 
@@ -274,7 +301,7 @@ p.issues-note {
   font-size: 90%;
 }
 
-ul + p.issues-note {
+ul+p.issues-note {
   margin-top: 0.25em;
 }
 
@@ -283,7 +310,6 @@ ul + p.issues-note {
   justify-content: center;
   align-items: center;
 }
-
 /* and more... 🖋 */
 
 /*# sourceMappingURL=theme_common.css.map */
