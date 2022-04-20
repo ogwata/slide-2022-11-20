@@ -1,0 +1,16 @@
+{
+  "name": "slide-202204232",
+  "description": "slide-20220423-2",
+  "version": "0.0.0",
+  "author": "小形克宏 <ogwata@vivliostyle.org>",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "latest",
+    "@vivliostyle/theme-slide": "^0.5.0"
+  },
+  "license": "CC-BY-3.0",
+  "private": true
+}
