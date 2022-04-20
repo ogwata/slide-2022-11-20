@@ -6,12 +6,12 @@
   "type": "Book",
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
   "author": "小形克宏 <ogwata@vivliostyle.org>",
-  "dateModified": "2022-04-20T17:09:49.024Z",
+  "dateModified": "2022-04-20T17:27:15.465Z",
   "name": "slide-20220423-2",
   "readingOrder": [
     {
-      "url": "slide.html",
-      "name": "Slideshow"
+      "url": "myslide.html",
+      "name": "VivliostyleでWebフォントを使う：調査編"
     }
   ],
   "resources": [],
