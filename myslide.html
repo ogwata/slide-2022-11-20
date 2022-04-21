@@ -16,87 +16,294 @@
     <section class="level1 toc" id="toc">
       <h1 class="toc" hidden>ToC</h1>
       <ol>
-        <li>History</li>
-        <li>Trademark</li>
-        <li>Website client-side usage</li>
-        <li>Other usage</li>
-        <li>Features</li>
-        <li>Syntax</li>
-        <li>Security</li>
-        <li>Development tools</li>
-        <li>Related technologies</li>
-        <li>References</li>
-        <li>Further reading</li>
-        <li>External links</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
+        <li>{}</li>
       </ol>
     </section>
-    <section id="javascript" class="level1">
-      <h1>JavaScript</h1>
-      <p><strong>JavaScript</strong> (<code>/ˈdʒɑːvəˌskrɪpt/</code>),often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.</p>
-      <p>JavaScript is <em>high-level</em>, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
-    </section>
-    <section id="weakly-typed" class="level1">
-      <h1>Weakly typed</h1>
-      <p>JavaScript is weakly typed, which means certain types are implicitly cast depending on the operation used.</p>
+    <section id="webフォントサービスとbrフォントファウンダリー" class="level1">
+      <h1>Webフォントサービスと<br>フォントファウンダリー①</h1>
       <ul>
-        <li>The binary <code>+</code> operator casts both operands to a string unless both operands are numbers. This is because the addition operator doubles as a concatenation operator</li>
-        <li>The binary <code>-</code> operator always casts both operands to a number</li>
-        <li>Both unary operators (+, -) always cast the operand to a number</li>
+        <li>SCREENホールディングス
+          <ul>
+            <li>REALTYPE（リアルタイプ）</li>
+            <li>TypeSquare（モリサワ）</li>
+            <li>FONTPLUS（SBテクノロジー）</li>
+            <li>fonts.com（Monotype）</li>
+          </ul>
+        </li>
       </ul>
     </section>
-    <section id="-" class="level1">
-      <h1 hidden>-</h1>
-      <section id="javascript-includes-a-number-of-quirks-that-have-been-subject-to-criticism" class="level4">
-        <h4>JavaScript includes a number of quirks that have been subject to criticism</h4>
-        <div class="center">
-          <table>
-            <thead>
-              <tr>
-                <th>left operand</th>
-                <th>operator</th>
-                <th>right operand</th>
-                <th>result</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>[](empty array)</td>
-                <td>+</td>
-                <td>[](empty array)</td>
-                <td>""(empty string)</td>
-              </tr>
-              <tr>
-                <td>[] (empty array)</td>
-                <td>+</td>
-                <td>{} (empty object)</td>
-                <td>"[object Object]" (string)</td>
-              </tr>
-              <tr>
-                <td>false (boolean)</td>
-                <td>+</td>
-                <td>[] (empty array)</td>
-                <td>"false" (string)</td>
-              </tr>
-              <tr>
-                <td>"123"(string)</td>
-                <td>+</td>
-                <td>1 (number)</td>
-                <td>"1231" (string)</td>
-              </tr>
-              <tr>
-                <td>"123" (string)</td>
-                <td>-</td>
-                <td>1 (number)</td>
-                <td>122 (number)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+    <section id="webフォントサービスとbrフォントファウンダリー-1" class="level1">
+      <h1>Webフォントサービスと<br>フォントファウンダリー②</h1>
+      <ul>
+        <li>大日本印刷
+          <ul>
+            <li>REALTYPE（リアルタイプ）</li>
+            <li>TypeSquare（モリサワ）</li>
+            <li>FONTPLUS（SBテクノロジー）</li>
+            <li>Adobe Fonts（アドビ）</li>
+          </ul>
+        </li>
+      </ul>
     </section>
-    <section id="--1" class="level1">
-      <h1 hidden>-</h1>
-      <pre class="language-javascript"><code class="language-javascript"><span class="token punctuation">(</span><span class="token string">'b'</span> <span class="token operator">+</span> <span class="token string">'a'</span> <span class="token operator">+</span> <span class="token operator">+</span><span class="token string">'a'</span> <span class="token operator">+</span> <span class="token string">'a'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// "banana"</span></code></pre>
+    <section id="webフォントサービスとbrフォントファウンダリー-2" class="level1">
+      <h1>Webフォントサービスと<br>フォントファウンダリー③</h1>
+      <ul>
+        <li>字游工房
+          <ul>
+            <li>TypeSquare（モリサワ）</li>
+            <li>Adobe Fonts（アドビ）</li>
+          </ul>
+        </li>
+        <li>ダイナコムウェア
+          <ul>
+            <li>Dyna Font Online（ダイナコムウェア）</li>
+          </ul>
+        </li>
+      </ul>
+      <p>→フォントファウンダリー＝Webフォントサービスではない</p>
+    </section>
+    <section id="webフォントを読み込む方法" class="level1">
+      <h1>Webフォントを読み込む方法</h1>
+      <ul>
+        <li>①@font-face
+          <ul>
+            <li>サーバに置いたフォントを読み込む</li>
+          </ul>
+        </li>
+        <li>②@import／link要素
+          <ul>
+            <li>サーバに置いたスタイルシートを読み込む</li>
+          </ul>
+        </li>
+        <li>③script要素
+          <ul>
+            <li>JavaScriptでフォントのサブセットを動的に生成し読み込む</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="webフォントサービスごとの読み込み方法" class="level1">
+      <h1>Webフォントサービスごとの読み込み方法</h1>
+      <ul>
+        <li>FONTPLUS（SBテクノロジー）③</li>
+        <li>TypeSquare（モリサワ）③</li>
+        <li>fonts.com（Monotype）②</li>
+        <li>DynaFontOnline（ダイナコムウェア）②③</li>
+        <li>REALTYPE（リアルタイプ）③</li>
+        <li>Google Fonts（Google）②</li>
+      </ul>
+    </section>
+    <section id="webフォントサービスのbr利用規約" class="level1">
+      <h1>Webフォントサービスの<br>利用規約</h1>
+      <ul>
+        <li><strong>ⓐ利用者のWebサイト以外での使用を禁止</strong>→FONTPLUS、TypeSquare、fonts.com、REALTYPE</li>
+        <li><strong>ⓑ利用者がデザイン、開発、作成するWebページコンテンツ以外での使用を禁止</strong>→Adobe Fonts</li>
+        <li><strong>ⓒ印刷物の制作、Webサイトのデザイン制作、電子書籍で使用を許諾</strong>→DynaSmart V</li>
+        <li><strong>ⓓ印刷物の制作や、利用者自身のWeb サイトのデザイン制作を許諾</strong>→DynaSmart T</li>
+      </ul>
+    </section>
+    <section id="利用者のwebサイト以外での使用を禁止の問題点" class="level1">
+      <h1>「利用者のWebサイト以外での使用を禁止」の問題点①</h1>
+      <ul>
+        <li>「利用者のWebサイト」の定義が曖昧
+          <ul>
+            <li>たとえば作成者と所有者が分離している場合</li>
+            <li>Webデザイナーが制作するWebサイト</li>
+            <li>「利用者」はWebデザイナーかサイト所有者か？</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="利用者のwebサイト以外での使用を禁止の問題点-1" class="level1">
+      <h1>「利用者のWebサイト以外での使用を禁止」の問題点②</h1>
+      <ul>
+        <li>ⓐの利用規約では解決不能
+          <ul>
+            <li>そこでドメインを登録してもらい「利用者」を特定</li>
+            <li>→利用規約というより運用によって解決</li>
+          </ul>
+        </li>
+        <li>ⓑは利用規約で利用者の範囲を明確化した
+          <ul>
+            <li>→Webデザイナーを対象とするサービスゆえに明確化した？</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="利用者のwebサイト以外での使用を禁止の問題点-2" class="level1">
+      <h1>「利用者のWebサイト以外での使用を禁止」の問題点③</h1>
+      <ul>
+        <li>ⓒはローカルフォントにWebフォントサービスが付帯
+          <ul>
+            <li>→だから利用規約にローカルフォントとWebフォントの区別がない</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle各プロダクトがbrユーザファイルを扱う仕組み" class="level1">
+      <h1>Vivliostyle各プロダクトが<br>ユーザファイルを扱う仕組み①</h1>
+      <ul>
+        <li>Ⓐネット上の任意のURLから読み込む（オンライン）→「利用者のWebサイト」ではない
+          <ul>
+            <li>Vivliostyle Viewer <a href="https://vivliostyle.org/viewer/">https://vivliostyle.org/viewer/</a></li>
+            <li>Vivliostyle Pub <a href="https://vivliostyle-pub-develop.vercel.app">https://vivliostyle-pub-develop.vercel.app</a></li>
+            <li>Vivliostyle CLI buildの際、ファイルのURLを指定可能</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle各プロダクトがbrユーザファイルを扱う仕組み-1" class="level1">
+      <h1>Vivliostyle各プロダクトが<br>ユーザファイルを扱う仕組み②</h1>
+      <ul>
+        <li>Ⓑhttp://localhost から読み込む（ローカル）→まさに「利用者のWebサイト」
+          <ul>
+            <li>Vivliostyle Viewer</li>
+            <li>Vivliostyle CLI</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle各プロダクトがbrユーザファイルを扱う仕組み-2" class="level1">
+      <h1>Vivliostyle各プロダクトが<br>ユーザファイルを扱う仕組み③</h1>
+      <ul>
+        <li>Ⓒfile:// から読み込む（ローカル）→そもそもWebサイトではない
+          <ul>
+            <li>Vivliostyle CLI</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyleで利用できるbrwebフォントサービス" class="level1">
+      <h1>Vivliostyleで利用できる<br>Webフォントサービス①</h1>
+      <ul>
+        <li>基本的には契約者間で決めること</li>
+        <li>第三者であるVivliostyleが利用保証はできない</li>
+        <li>以下に示すのは、ユーザの便宜をはかるため、各社と会話した上で独自に判断したもの</li>
+        <li>私達が推奨した場合でも、個別に問い合わせて確認してほしい</li>
+      </ul>
+    </section>
+    <section id="vivliostyleで利用できるbrwebフォントサービス-1" class="level1">
+      <h1>Vivliostyleで利用できる<br>Webフォントサービス②</h1>
+      <ul>
+        <li>凡例
+          <ul>
+            <li>○……推奨</li>
+            <li>×……利用規約外の可能性が高い</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle-cli" class="level1">
+      <h1>Vivliostyle CLI①</h1>
+      <ul>
+        <li>Ⓐネット上の任意のURLでプレビュー
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T、FONTPLUS（すべて登録サイトのみ可）</li>
+            <li>×……TypeSquare、fonts.com、Adobe Fonts</li>
+          </ul>
+        </li>
+        <li>Ⓑhttp://localhost でプレビュー
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T、TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+            <li>×……なし</li>
+          </ul>
+        </li>
+        <li>Ⓒfile:// でプレビュー
+          <ul>
+            <li>○……DynaSmart V</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle-cli-1" class="level1">
+      <h1>Vivliostyle CLI②</h1>
+      <ul>
+        <li>PDFの出力とオフセット印刷
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）</li>
+            <li>×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+          </ul>
+        </li>
+        <li>PDFやその印刷物の有償販売
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）</li>
+            <li>×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle-viewer" class="level1">
+      <h1>Vivliostyle Viewer①</h1>
+      <ul>
+        <li>Ⓐネット上の任意のURLでプレビュー
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T、FONTPLUS（すべて登録サイトのみ可）</li>
+            <li>×……TypeSquare、fonts.com、Adobe Fonts</li>
+          </ul>
+        </li>
+        <li>Ⓑhttp://localhost でプレビュー
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T、TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+            <li>×……なし</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle-viewer-1" class="level1">
+      <h1>Vivliostyle Viewer②</h1>
+      <ul>
+        <li>PDFの出力とオフセット印刷
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）</li>
+            <li>×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+          </ul>
+        </li>
+        <li>PDFやその印刷物の有償販売
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）</li>
+            <li>×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle-pub" class="level1">
+      <h1>Vivliostyle Pub①</h1>
+      <ul>
+        <li>Ⓐネット上の任意のURLでプレビュー
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T、FONTPLUS（すべて登録サイトのみ可）</li>
+            <li>×……TypeSquare、fonts.com、Adobe Fonts</li>
+          </ul>
+        </li>
+        <li>PDFの出力とオフセット印刷
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）</li>
+            <li>×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="vivliostyle-pub-1" class="level1">
+      <h1>Vivliostyle Pub②</h1>
+      <ul>
+        <li>PDFやその印刷物の有償販売
+          <ul>
+            <li>○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）</li>
+            <li>×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts</li>
+          </ul>
+        </li>
+      </ul>
     </section>
   </body>
 </html>

@@ -8,7 +8,7 @@
     "preview": "vivliostyle preview"
   },
   "dependencies": {
-    "@vivliostyle/cli": "latest",
+    "@vivliostyle/cli": "4.11.0",
     "@vivliostyle/theme-slide": "^0.5.0"
   },
   "license": "CC-BY-3.0",
