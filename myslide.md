@@ -16,12 +16,10 @@ title: VivliostyleでWebフォントを使う：調査編
 6. [Webフォントサービスの利用規約](#terms-of-use-for-webfont-service)
 7. [「利用者のWebサイト以外での使用を禁止」の問題点①](#prohibition-of-use-other-than-the-users-website-1)
 8. [「利用者のWebサイト以外での使用を禁止」の問題点②](#prohibition-of-use-other-than-the-users-website-2)
-9. [「利用者のWebサイト以外での使用を禁止」の問題点③](#prohibition-of-use-other-than-the-users-website-3)
 10. [Vivliostyle各プロダクトがユーザファイルを扱う仕組み①](#how-each-vivliostyle-product-handles-user-files-1)
 11. [Vivliostyle各プロダクトがユーザファイルを扱う仕組み②](#how-each-vivliostyle-product-handles-user-files-2)
 12. [Vivliostyle各プロダクトがユーザファイルを扱う仕組み③](#how-each-vivliostyle-product-handles-user-files-3)
-13. [Vivliostyleで利用できるWebフォントサービス①](#webfont-services-available-in-vivliostyle-1)
-14. [Vivliostyleで利用できるWebフォントサービス②](#webfont-services-available-in-vivliostyle-2)
+13. [Vivliostyleで利用できるWebフォントサービス](#webfont-services-available-in-vivliostyle-1)
 15. [Vivliostyle CLI①](#vivliostyle-cli-1)
 16. [Vivliostyle CLI②](#vivliostyle-cli-2)
 17. [Vivliostyle Viewer①](#vivliostyle-viewer-1)
@@ -90,16 +88,13 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # 「利用者のWebサイト以外での使用を禁止」の問題点②{#prohibition-of-use-other-than-the-users-website-2}
 
-- ⓐの利用規約では解決不能
+- ⓐ：利用規約では解決不能
     - そこでドメインを登録してもらい「利用者」を特定
-    - →利用規約というより運用によって解決
-- ⓑは利用規約で利用者の範囲を明確化した
-    - →Webデザイナーを対象とするサービスゆえに明確化した？
-
-# 「利用者のWebサイト以外での使用を禁止」の問題点③{#prohibition-of-use-other-than-the-users-website-3}
-
-- ⓒはローカルフォントにWebフォントサービスが付帯
-    - →だから利用規約にローカルフォントとWebフォントの区別がない
+    - →利用規約および運用によって解決
+- ⓑ：利用規約で利用者の範囲を明確化した
+    - →Webデザイナーを対象とするサービスなので明確化？
+- ⓒ：ローカルフォントにWebフォントサービスが付帯
+    - →利用規約はローカルフォントとWebフォントを区別せず
 
 # Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み①{#how-each-vivliostyle-product-handles-user-files-1}
 
@@ -107,27 +102,21 @@ title: VivliostyleでWebフォントを使う：調査編
     - Vivliostyle Viewer https://vivliostyle.org/viewer/
     - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
     - Vivliostyle CLI buildの際、ファイルのURLを指定可能
-
-# Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み②{#how-each-vivliostyle-product-handles-user-files-2}
-
 - Ⓑhttp://localhost から読み込む（ローカル）→まさに「利用者のWebサイト」
     - Vivliostyle Viewer 
     - Vivliostyle CLI
 
-# Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み③{#how-each-vivliostyle-product-handles-user-files-3}
+# Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み②{#how-each-vivliostyle-product-handles-user-files-3}
 
 - Ⓒfile:// から読み込む（ローカル）→そもそもWebサイトではない
     - Vivliostyle CLI
 
-# Vivliostyleで利用できる<br/>Webフォントサービス①{#webfont-services-available-in-vivliostyle-1}
+# Vivliostyleで利用できる<br/>Webフォントサービス{#webfont-services-available-in-vivliostyle-1}
 
 - 基本的には契約者間で決めること
 - 第三者であるVivliostyleが利用保証はできない
 - 以下に示すのは、ユーザの便宜をはかるため、各社と会話した上で独自に判断したもの
 - 私達が推奨した場合でも、個別に問い合わせて確認してほしい
-
-# Vivliostyleで利用できる<br/>Webフォントサービス②{#webfont-services-available-in-vivliostyle-2}
-
 - 凡例
    - ○……推奨
    - ×……利用規約外の可能性が高い
@@ -142,6 +131,7 @@ title: VivliostyleでWebフォントを使う：調査編
     - ×……なし
 - Ⓒfile:// でプレビュー
     - ○……DynaSmart V
+    - ×……DynaSmart T、TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
 
 # Vivliostyle CLI②{#vivliostyle-cli-2}
 

@@ -12,6 +12,7 @@ html {
   font-weight: 500;
   line-height: 1.4;
   text-spacing: auto;
+  font-feature-settings: "palt";
 }
 
 @page {
@@ -55,8 +56,8 @@ html {
 
 body>section:first-child {
   page: cover;
-  background-color: #212057;
-  background-image: url(https://vivliostyle.org/assets/header-image.svg);
+  background-color: #076522;
+  /* background-image: url(https://vivliostyle.org/assets/header-image.svg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
