@@ -85,7 +85,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 - Adobe Fonts
 - 利用者の**使途**を定義することで許諾範囲を明確化
-    - 単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するページ以外」と使途を明確化
+    - 単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するWebサイト以外」と使途を明確化
     - →Dreamweaverで仕事をする人（クリエイター）のための利用規約
 
 # ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
@@ -114,9 +114,9 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # Vivliostyleプロダクトの3類型{#how-each-vivliostyle-product-handles-user-files-1}
 
-プログラムが置かれている場所によって3種類に分類できる
+プログラムが置かれた場所によって3種類に分類できる
 
-- ⒶVivliostyleのサイト上に置かれているVivliostyle
+- ⒶVivliostyleのサイト上に置かれたVivliostyle
     - Vivliostyle Viewer https://vivliostyle.org/viewer/
     - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
 - Ⓑ自分のPC上のVivliostyle（localhost）
@@ -125,17 +125,19 @@ title: VivliostyleでWebフォントを使う：調査編
 - Ⓒ自分のPC上のVivliostyle（fileプロトコル）
     - Vivliostyle CLI
 
-# 置かれている場所ごとの<br/>Webフォント利用可否①{#how-each-vivliostyle-product-handles-user-files-3}
+# 置かれた場所ごとの<br/>Webフォント利用可否①{#how-each-vivliostyle-product-handles-user-files-3}
 
-<div style="font-size: 95%;">
+<div style="font-size: 88%;">
 
-- ⒶVivliostyleのサイト上に置かれているVivliostyle
+- ⒶVivliostyleのサイト上に置かれたVivliostyle
     - ⓐ「利用者のWebサイト以外での使用を禁止」方式
         - 「利用者のWebサイト」ではないので🙅
     - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
         - 「利用者がデザイン、開発、作成したWebサイト」ではないので🙅
     - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
         - 「Webサイトのデザイン制作」に該当し🙆
+    - ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式
+        - 「利用者のWebサイト」ではないので🙅
 
 </div>
 
