@@ -64,7 +64,7 @@ title: VivliostyleでWebフォントを使う：調査編
 - REALTYPE（リアルタイプ）③
 - Google Fonts（Google）②
 
-# Webフォントサービスの<br/>利用規約{#terms-of-use-for-webfont-service}
+# Webフォントサービスにおける<br/>利用規約の分類{#terms-of-use-for-webfont-service}
 
 - **ⓐ利用者のWebサイト以外での使用を禁止**→FONTPLUS、TypeSquare、fonts.com、REALTYPE
 - **ⓑ利用者がデザイン、開発、作成するWebページコンテンツ以外での使用を禁止**→Adobe Fonts
