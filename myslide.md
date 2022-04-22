@@ -155,61 +155,16 @@ title: VivliostyleでWebフォントを使う：調査編
 
 </div>
 
-# プロダクトごとの利用可否
+# プロダクトごとの利用可否①
 
+![](cli.png){width=90%}
 
-# Vivliostyle CLI①{#vivliostyle-cli-1}
+# プロダクトごとの利用可否②
 
-- Ⓐネット上の任意のURLでプレビュー
-    - ○……DynaSmart V、DynaSmart T、FONTPLUS（すべて登録サイトのみ可）
-    - ×……TypeSquare、fonts.com、Adobe Fonts
-- Ⓑhttp://localhost でプレビュー
-    - ○……DynaSmart V、DynaSmart T、TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
-    - ×……なし
-- Ⓒfile:// でプレビュー
-    - ○……DynaSmart V
-    - ×……DynaSmart T、TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
+![](viewer.png){width=90%}
 
-# Vivliostyle CLI②{#vivliostyle-cli-2}
+# プロダクトごとの利用可否③
 
-- PDFの出力とオフセット印刷
-    - ○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）
-    - ×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
-- PDFやその印刷物の有償販売
-    - ○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）
-    - ×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
-
-# Vivliostyle Viewer①{#vivliostyle-viewer-1}
-
-- Ⓐネット上の任意のURLでプレビュー
-    - ○……DynaSmart V、DynaSmart T、FONTPLUS（すべて登録サイトのみ可）
-    - ×……TypeSquare、fonts.com、Adobe Fonts
-- Ⓑhttp://localhost でプレビュー
-    - ○……DynaSmart V、DynaSmart T、TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
-    - ×……なし
-
-# Vivliostyle Viewer②{#vivliostyle-viewer-2}
-
-- PDFの出力とオフセット印刷
-    - ○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）
-    - ×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
-- PDFやその印刷物の有償販売
-    - ○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）
-    - ×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
-
-# Vivliostyle Pub①{#vivliostyle-pub-1}
-
-- Ⓐネット上の任意のURLでプレビュー
-    - ○……DynaSmart V、DynaSmart T、FONTPLUS（すべて登録サイトのみ可）
-    - ×……TypeSquare、fonts.com、Adobe Fonts
-- PDFの出力とオフセット印刷
-    - ○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）
-    - ×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
-
-# Vivliostyle Pub②{#vivliostyle-pub-2}
-
-- PDFやその印刷物の有償販売
-    - ○……DynaSmart V、DynaSmart T（http://localhost の場合のみ可）
-    - ×……TypeSquare、fonts.com、FONTPLUS、Adobe Fonts
+![](pub.png){width=90%}
 
 # まとめ{#summary}
