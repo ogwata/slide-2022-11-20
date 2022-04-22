@@ -179,9 +179,9 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 ![](pub.png){width=80%}
 
-<div style="font-size: 70%;">
+<div style="font-size: 60%;">
 
-FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが、ブログと同じと解釈して🙆
+FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが、ブログと同じと解釈し、プレビューのみ🙆
 
 </div>
 
