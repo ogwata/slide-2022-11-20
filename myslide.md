@@ -71,14 +71,14 @@ title: VivliostyleでWebフォントを使う：調査編
 - **ⓒ印刷物の制作、Webサイトのデザイン制作、電子書籍で使用を許諾**→DynaSmart V
 - **ⓓ印刷物の制作や、利用者自身のWeb サイトのデザイン制作を許諾**→DynaSmart T
 
-# 「利用者のWebサイト以外での使用を禁止」の問題点①{#prohibition-of-use-other-than-the-users-website-1}
+# 「利用者のWebサイト以外での使用を禁止」の考察①{#prohibition-of-use-other-than-the-users-website-1}
 
 - 「利用者のWebサイト」の定義が曖昧
    - たとえば作成者と所有者が分離している場合
     - Webデザイナーが制作するWebサイト
     - 「利用者」はWebデザイナーかサイト所有者か？
 
-# 「利用者のWebサイト以外での使用を禁止」の問題点②{#prohibition-of-use-other-than-the-users-website-2}
+# 「利用者のWebサイト以外での使用を禁止」の考察②{#prohibition-of-use-other-than-the-users-website-2}
 
 - ⓐ：利用規約では解決不能
     - そこでドメインを登録してもらい「利用者」を特定
