@@ -111,7 +111,7 @@
       </ul>
     </section>
     <section id="prohibition-of-use-other-than-the-users-website-1" class="level1">
-      <h1>ⓐ「利用者がデザイン、開発、作成するページ以外を禁止」方式</h1>
+      <h1>ⓐ「利用者のWebサイト以外での使用を禁止」方式</h1>
       <ul>
         <li>FONTPLUS、TypeSquare、fonts.com、REALTYPE</li>
         <li>実際には「利用者のWebサイト」の定義が曖昧
@@ -124,7 +124,7 @@
             </li>
             <li>そこでドメインを登録してもらい「利用者」を特定
               <ul>
-                <li>つまり利用規約および運用によって問題を解決</li>
+                <li>つまり利用規約＋その運用によって問題を解決</li>
               </ul>
             </li>
           </ul>
@@ -135,48 +135,36 @@
       <h1>ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式</h1>
       <ul>
         <li>Adobe Fonts</li>
-        <li>利用者の使途を定義することでWebフォントの利用範囲を明確化
+        <li>利用者の<strong>使途</strong>を定義することで許諾範囲を明確化
           <ul>
-            <li>単に「利用者のWebサイト」ではなく使途を明示</li>
-            <li>→Webデザイナーを対象とするサービスなので明確化？</li>
+            <li>単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するページ以外」と使途を明確化</li>
+            <li>→Dreamweaverで仕事をする人（クリエイター）のための利用規約</li>
           </ul>
         </li>
       </ul>
     </section>
     <section id="ⓒ印刷物webサイトデザイン電子書籍を許諾方式" class="level1">
       <h1>ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式</h1>
-      <pre class="language-text"><code class="language-text">- ローカルフォントにWebフォントサービスが付帯 
-- →利用規約はローカルフォントとWebフォントを区別せず</code></pre>
-    </section>
-    <section id="how-each-vivliostyle-product-handles-user-files-1" class="level1">
-      <h1>Vivliostyle各プロダクトが<br>ユーザファイルを扱う仕組み①</h1>
-      <div style="font-size: 90%;">
+      <div style="font-size: 95%;">
         <ul>
-          <li>Ⓐネット上の任意のURLから読み込む（オンライン）→「利用者のWebサイト」ではない
+          <li>DynaSmartVに付帯するDynaFont Online
             <ul>
-              <li>Vivliostyle Viewer <a href="https://vivliostyle.org/viewer/">https://vivliostyle.org/viewer/</a></li>
-              <li>Vivliostyle Pub <a href="https://vivliostyle-pub-develop.vercel.app">https://vivliostyle-pub-develop.vercel.app</a></li>
-              <li>Vivliostyle CLI buildの際、ファイルのURLを指定可能</li>
+              <li>ローカルフォント年間ライセンスにWebフォントサービスが付帯している
+                <ul>
+                  <li>ローカルフォントとWebフォントが同じ利用規約</li>
+                  <li>ローカルフォントと同じ許諾範囲でWebフォントが使える</li>
+                </ul>
+              </li>
             </ul>
           </li>
-          <li>Ⓑhttp://localhost から読み込む（ローカル）→まさに「利用者のWebサイト」
+          <li><strong>ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式</strong>
             <ul>
-              <li>Vivliostyle Viewer</li>
-              <li>Vivliostyle CLI</li>
+              <li>DynaSmartTに有償オプションでDynaFont Onlineが利用可能</li>
+              <li>ⓒと同じ構造だが、範囲を絞っている</li>
             </ul>
           </li>
         </ul>
       </div>
-    </section>
-    <section id="how-each-vivliostyle-product-handles-user-files-3" class="level1">
-      <h1>Vivliostyle各プロダクトが<br>ユーザファイルを扱う仕組み②</h1>
-      <ul>
-        <li>Ⓒfile:// から読み込む（ローカル）→そもそもWebサイトではない
-          <ul>
-            <li>Vivliostyle CLI</li>
-          </ul>
-        </li>
-      </ul>
     </section>
     <section id="webfont-services-available-in-vivliostyle-1" class="level1">
       <h1>Vivliostyleで利用できる<br>Webフォントサービス</h1>
@@ -192,6 +180,32 @@
           </ul>
         </li>
       </ul>
+    </section>
+    <section id="how-each-vivliostyle-product-handles-user-files-1" class="level1">
+      <h1>Vivliostyleプロダクトの3類型</h1>
+      <p>プログラムが置かれている場所によって3種類に分類できる</p>
+      <ul>
+        <li>ⒶVivliostyleのサイト上に置かれているVivliostyle
+          <ul>
+            <li>Vivliostyle Viewer <a href="https://vivliostyle.org/viewer/">https://vivliostyle.org/viewer/</a></li>
+            <li>Vivliostyle Pub <a href="https://vivliostyle-pub-develop.vercel.app">https://vivliostyle-pub-develop.vercel.app</a></li>
+          </ul>
+        </li>
+        <li>Ⓑ自分のPC上のVivliostyle（localhost）
+          <ul>
+            <li>Vivliostyle Viewer</li>
+            <li>Vivliostyle CLI</li>
+          </ul>
+        </li>
+        <li>Ⓒ自分のPC上のVivliostyle（fileプロトコル）
+          <ul>
+            <li>Vivliostyle CLI</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="how-each-vivliostyle-product-handles-user-files-3" class="level1">
+      <h1>Vivliostyle各プロダクトが<br>ユーザファイルを扱う仕組み②</h1>
     </section>
     <section id="vivliostyle-cli-1" class="level1">
       <h1>Vivliostyle CLI①</h1>
