@@ -13,14 +13,16 @@ title: VivliostyleでWebフォントを使う：調査編
 4. [Webフォントを読み込む方法](#how-to-load-Webfonts)
 5. [Webフォントサービスごとの読み込み方法](#how-to-load-each-webfont-service)
 6. [利用規約からみたWebフォントサービスの3類型](#terms-of-use-for-webfont-service)
-7. [ⓐ「利用者のWebサイト以外での使用を禁止」方式](#prohibition-of-use-other-than-the-users-website-1)
-8. [ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式](#prohibition-of-use-other-than-the-users-website-2)
-10. [ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式]()
-11. [Vivliostyleプロダクトの2類型](#how-each-vivliostyle-product-handles-user-files-1)
-12. [置かれた場所ごとの<br/>Webフォント利用可否①](#how-each-vivliostyle-product-handles-user-files-3)
-13. [置かれた場所ごとの<br/>Webフォント利用可否②](#webfont-services-available-in-vivliostyle-1)
-15. [プロダクトごとの利用可否①](#vivliostyle-cli-1)
-16. [プロダクトごとの利用可否②](#vivliostyle-cli-2)
+7. [ⓐ「利用者のWebサイト以外での使用を禁止」方式](#prohibition-of-use-other-than-the-users-website)
+8. [ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式](#prohibits-websites-other-than-those-designed-developed-or-created-by-the-user)
+10. [ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式](#printing-website-design-and-ebooks-are-permitted)
+10. [Vivliostyleで利用できるWebフォントサービス](#web-font-services-available-in-vivliostyle)
+11. [Vivliostyleプロダクトの2類型](#two-types-of-vivliostyle-products)
+12. [置かれた場所ごとの<br/>Webフォント利用可否①](#web-font-availability-by-location-1)
+13. [置かれた場所ごとの<br/>Webフォント利用可否②](#web-font-availability-by-location-2)
+15. [プロダクトごとの利用可否①](#availability-by-product-1)
+16. [プロダクトごとの利用可否②](#availability-by-product-2)
+16. [プロダクトごとの利用可否③](#availability-by-product-3)
 21. [まとめ](#summary)
 
 # Webフォントサービスと<br/>フォントファウンダリー①{#webfontservices-and-fontfoundries-1}
@@ -66,7 +68,7 @@ title: VivliostyleでWebフォントを使う：調査編
 - ⓒ…「印刷物／Webサイトデザイン／電子書籍を許諾」方式
     - ⓒ-b…「印刷物／利用者のWebサイトデザインを許諾」方式
 
-# ⓐ「利用者のWebサイト以外での使用を禁止」方式{#prohibition-of-use-other-than-the-users-website-1}
+# ⓐ「利用者のWebサイト以外での使用を禁止」方式{#prohibition-of-use-other-than-the-users-website}
 
 - FONTPLUS、TypeSquare、fonts.com、REALTYPE
 - 実際には「利用者のWebサイト」の定義が曖昧
@@ -76,14 +78,14 @@ title: VivliostyleでWebフォントを使う：調査編
     - そこでドメインを登録してもらい「利用者」を特定
         - つまり利用規約＋その運用によって問題を解決
 
-# ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#prohibition-of-use-other-than-the-users-website-2}
+# ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#prohibits-websites-other-than-those-designed-developed-or-created-by-the-user}
 
 - Adobe Fonts
 - 利用者の**使途**を定義することで許諾範囲を明確化
     - 単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するWebサイト以外」と使途を明確化
     - →Dreamweaverで仕事をする人（クリエイター）のための利用規約
 
-# ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
+# ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式{#printing-website-design-and-ebooks-are-permitted}
 
 <div style="font-size: 95%;">
 
@@ -97,7 +99,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 </div>
 
-# Vivliostyleで利用できる<br/>Webフォントサービス{#webfont-services-available-in-vivliostyle-1}
+# Vivliostyleで利用できる<br/>Webフォントサービス{#web-font-services-available-in-vivliostyle}
 
 - 基本的には契約者間で決めること
 - 第三者であるVivliostyleが利用保証はできない
