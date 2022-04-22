@@ -4,7 +4,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # Vivliostyleで<br/>Webフォントを使う：調査編 {.cover}
 
-## 小形克宏<br/>2022年4月23日<br/>Vivliostyle ユーザーと開発者の集い
+## 小形克宏<br/>2022年4月23日<br/>Vivliostyle ユーザーと開発者の集い<br/>2022春
 
 # ToC {.toc hidden style="display: none"}
 
