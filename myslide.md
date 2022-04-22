@@ -20,8 +20,8 @@ title: VivliostyleでWebフォントを使う：調査編
 10. [ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式](#printing-website-design-and-ebooks-are-permitted)
 10. [Vivliostyleで利用できるWebフォントサービス](#web-font-services-available-in-vivliostyle)
 11. [Vivliostyleプロダクトの2類型](#two-types-of-vivliostyle-products)
-12. [置かれた場所ごとの<br/>Webフォント利用可否①](#web-font-availability-by-location-1)
-13. [置かれた場所ごとの<br/>Webフォント利用可否②](#web-font-availability-by-location-2)
+12. [置かれた場所ごとのWebフォント利用可否①](#web-font-availability-by-location-1)
+13. [置かれた場所ごとのWebフォント利用可否②](#web-font-availability-by-location-2)
 15. [プロダクトごとの利用可否①](#availability-by-product-1)
 16. [プロダクトごとの利用可否②](#availability-by-product-2)
 16. [プロダクトごとの利用可否③](#availability-by-product-3)
@@ -113,7 +113,7 @@ title: VivliostyleでWebフォントを使う：調査編
    - 🙆……推奨
    - 🙅……利用規約外の可能性が高い
 
-# Vivliostyleプロダクトの2類型{#two-types-of-vivliostyle-product}
+# Vivliostyleプロダクトの2類型{#two-types-of-vivliostyle-products}
 
 プログラムが置かれた場所によって2種類に分類できる
 
@@ -124,7 +124,7 @@ title: VivliostyleでWebフォントを使う：調査編
     - Vivliostyle Viewer 
     - Vivliostyle CLI
 
-# 置かれた場所ごとの<br/>Webフォント利用可否①{#how-each-vivliostyle-product-handles-user-files-3}
+# 置かれた場所ごとの<br/>Webフォント利用可否①{#web-font-availability-by-location-1}
 
 <div style="font-size: 88%;">
 
@@ -140,7 +140,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 </div>
 
-# 置かれている場所ごとの<br/>Webフォント利用可否②
+# 置かれている場所ごとの<br/>Webフォント利用可否②{#web-font-availability-by-location-2}
 
 <div style="font-size: 90%;">
 
@@ -156,15 +156,15 @@ title: VivliostyleでWebフォントを使う：調査編
 
 </div>
 
-# プロダクトごとの利用可否①
+# プロダクトごとの利用可否①{#availability-by-product-1}
 
 ![](cli.png){width=90%}
 
-# プロダクトごとの利用可否②
+# プロダクトごとの利用可否②{#availability-by-product-2}
 
 ![](viewer.png){width=90%}
 
-# プロダクトごとの利用可否③
+# プロダクトごとの利用可否③{#availability-by-product-3}
 
 ![](pub.png){width=90%}
 
