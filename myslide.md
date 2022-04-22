@@ -122,7 +122,7 @@ title: VivliostyleでWebフォントを使う：調査編
 - Ⓑ自分のPC上のVivliostyle（localhost）
     - Vivliostyle Viewer 
     - Vivliostyle CLI
-- Ⓒ自分のPC上のVivliostyle（fileプロトコル/そもそも技術的にWebフォント利用不可）
+- Ⓒ自分のPC上のVivliostyle（fileプロトコル/技術的にWebフォントは利用不可だが、“頭の体操”として検討）
     - Vivliostyle CLI
 
 # 置かれた場所ごとの<br/>Webフォント利用可否①{#how-each-vivliostyle-product-handles-user-files-3}
