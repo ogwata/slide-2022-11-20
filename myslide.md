@@ -98,6 +98,8 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み①{#how-each-vivliostyle-product-handles-user-files-1}
 
+<div style="font-size: 90%;">
+
 - Ⓐネット上の任意のURLから読み込む（オンライン）→「利用者のWebサイト」ではない
     - Vivliostyle Viewer https://vivliostyle.org/viewer/
     - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
@@ -105,6 +107,8 @@ title: VivliostyleでWebフォントを使う：調査編
 - Ⓑhttp://localhost から読み込む（ローカル）→まさに「利用者のWebサイト」
     - Vivliostyle Viewer 
     - Vivliostyle CLI
+
+</div>
 
 # Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み②{#how-each-vivliostyle-product-handles-user-files-3}
 
