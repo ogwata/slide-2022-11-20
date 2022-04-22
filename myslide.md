@@ -65,7 +65,7 @@ title: VivliostyleでWebフォントを使う：調査編
 - REALTYPE（リアルタイプ）③
 - Google Fonts（Google）②
 
-※JavaScript方式が圧倒的多数の状況
+→JavaScript方式が圧倒的多数の状況
 
 # 利用規約からみた<br/>Webフォントサービスの3類型{#terms-of-use-for-webfont-service}
 
@@ -73,6 +73,8 @@ title: VivliostyleでWebフォントを使う：調査編
 - ⓑ…「利用者がデザイン、開発、作成するWebサイト以外を禁止」方式
 - ⓒ…「印刷物／Webサイトデザイン／電子書籍を許諾」方式
     - ⓒ-b…「印刷物／利用者のWebサイトデザインを許諾」方式
+
+→ⓑはAdobe Fonts、ⓒはダイナコムウェア
 
 # ⓐ「利用者のWebサイト以外での使用を禁止」方式{#prohibition-of-use-other-than-the-users-website}
 
