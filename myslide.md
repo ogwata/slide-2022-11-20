@@ -112,14 +112,14 @@ title: VivliostyleでWebフォントを使う：調査編
    - 🙆……推奨
    - 🙅……利用規約外の可能性が高い
 
-# Vivliostyleプロダクトの3類型{#how-each-vivliostyle-product-handles-user-files-1}
+# Vivliostyleプロダクトの2類型{#how-each-vivliostyle-product-handles-user-files-1}
 
 プログラムが置かれた場所によって2種類に分類できる
 
 - ⒶVivliostyleのサイト上に置かれたVivliostyle
     - Vivliostyle Viewer https://vivliostyle.org/viewer/
     - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
-- Ⓑ自分のPC上のVivliostyle（localhost）
+- Ⓑ自分のPC上のVivliostyle（http://localhost）
     - Vivliostyle Viewer 
     - Vivliostyle CLI
 
@@ -143,7 +143,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 <div style="font-size: 90%;">
 
-- **Ⓑ自分のPC上のVivliostyle（localhost）**
+- **Ⓑ自分のPC上のVivliostyle（http://localhost）**
     - ⓐ「利用者のWebサイト以外での使用を禁止」方式
         - 「利用者のWebサイト」なので🙆
     - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
