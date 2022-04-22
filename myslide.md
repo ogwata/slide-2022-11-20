@@ -114,15 +114,13 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # Vivliostyleプロダクトの3類型{#how-each-vivliostyle-product-handles-user-files-1}
 
-プログラムが置かれた場所によって3種類に分類できる
+プログラムが置かれた場所によって2種類に分類できる
 
 - ⒶVivliostyleのサイト上に置かれたVivliostyle
     - Vivliostyle Viewer https://vivliostyle.org/viewer/
     - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
 - Ⓑ自分のPC上のVivliostyle（localhost）
     - Vivliostyle Viewer 
-    - Vivliostyle CLI
-- Ⓒ自分のPC上のVivliostyle（fileプロトコル/技術的にWebフォントは利用不可だが、“頭の体操”として検討）
     - Vivliostyle CLI
 
 # 置かれた場所ごとの<br/>Webフォント利用可否①{#how-each-vivliostyle-product-handles-user-files-3}
@@ -131,13 +129,13 @@ title: VivliostyleでWebフォントを使う：調査編
 
 - **ⒶVivliostyleのサイト上に置かれたVivliostyle**
     - ⓐ「利用者のWebサイト以外での使用を禁止」方式
-        - 「利用者のWebサイト」ではないので🙅
+        - 「利用者のWebサイト」でないので🙅
     - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
-        - 「利用者がデザイン、開発、作成したWebサイト」ではないので🙅
+        - 「利用者がデザイン、開発、作成したWebサイト」でないので🙅
     - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
         - 「Webサイトのデザイン制作」なので🙆
     - ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式
-        - 「利用者のWebサイト」ではないので🙅
+        - 「利用者のWebサイト」でないので🙅
 
 </div>
 
@@ -156,16 +154,6 @@ title: VivliostyleでWebフォントを使う：調査編
         - 「利用者のWebサイト」ではないので🙅
 
 </div>
-
-# 置かれている場所ごとの<br/>Webフォント利用可否③
-
-- Ⓒ自分のPC上のVivliostyle（fileプロトコル）
-    - ⓐ「利用者のWebサイト以外での使用を禁止」方式
-        - そもそも「Webサイト」ではないので🙅
-    - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
-        - そもそも「Webサイト」ではないので🙅
-    - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
-        - 「Webサイトのデザイン制作」なので🙆
 
 # Vivliostyle CLI①{#vivliostyle-cli-1}
 
