@@ -125,11 +125,16 @@ title: VivliostyleでWebフォントを使う：調査編
 - Ⓒ自分のPC上のVivliostyle（fileプロトコル）
     - Vivliostyle CLI
 
+# 置かれている場所ごとの<br/>Webフォント利用可否{#how-each-vivliostyle-product-handles-user-files-3}
 
-# Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み②{#how-each-vivliostyle-product-handles-user-files-3}
+- ⒶVivliostyleのサイト上に置かれているVivliostyle
+    - ⓐ「利用者のWebサイト以外での使用を禁止」方式
+        - 
 
 
 
+- Ⓑ自分のPC上のVivliostyle（localhost）
+- Ⓒ自分のPC上のVivliostyle（fileプロトコル）
 
 # Vivliostyle CLI①{#vivliostyle-cli-1}
 
