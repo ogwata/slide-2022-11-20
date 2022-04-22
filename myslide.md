@@ -6,7 +6,9 @@ title: VivliostyleでWebフォントを使う：調査編
 
 ## 小形克宏<br/>2022年4月23日<br/>Vivliostyle ユーザーと開発者の集い
 
-# ToC {.toc hidden style="display: none"}
+# ToC {.toc hidden}
+
+<div style="break-after: page;">
 
 1. [Webフォントサービスとフォントファウンダリー①](#webfontservices-and-fontfoundries-1)
 2. [Webフォントサービスとフォントファウンダリー②](#webfontservices-and-fontfoundries-2)
@@ -24,6 +26,8 @@ title: VivliostyleでWebフォントを使う：調査編
 16. [プロダクトごとの利用可否②](#availability-by-product-2)
 16. [プロダクトごとの利用可否③](#availability-by-product-3)
 21. [まとめ](#summary)
+
+</div>
 
 # Webフォントサービスと<br/>フォントファウンダリー①{#webfontservices-and-fontfoundries-1}
 
@@ -109,7 +113,7 @@ title: VivliostyleでWebフォントを使う：調査編
    - 🙆……推奨
    - 🙅……利用規約外の可能性が高い
 
-# Vivliostyleプロダクトの2類型{#how-each-vivliostyle-product-handles-user-files-1}
+# Vivliostyleプロダクトの2類型{#two-types-of-vivliostyle-product}
 
 プログラムが置かれた場所によって2種類に分類できる
 
