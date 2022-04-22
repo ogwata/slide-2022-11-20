@@ -164,6 +164,8 @@ title: VivliostyleでWebフォントを使う：調査編
 
 ![](viewer.png){width=90%}
 
+※……Vivliostyleのサイトでは利用不可
+
 # プロダクトごとの利用可否③{#availability-by-product-3}
 
 ![](pub.png){width=90%}
