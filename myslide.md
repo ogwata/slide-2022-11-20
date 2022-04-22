@@ -64,25 +64,27 @@ title: VivliostyleでWebフォントを使う：調査編
 - REALTYPE（リアルタイプ）③
 - Google Fonts（Google）②
 
-# Webフォントサービスにおける<br/>利用規約の分類{#terms-of-use-for-webfont-service}
+# Webフォントサービスにおける<br/>利用規約の種類{#terms-of-use-for-webfont-service}
 
 - **ⓐ利用者のWebサイト以外での使用を禁止**→FONTPLUS、TypeSquare、fonts.com、REALTYPE
 - **ⓑ利用者がデザイン、開発、作成するWebページコンテンツ以外での使用を禁止**→Adobe Fonts
 - **ⓒ印刷物の制作、Webサイトのデザイン制作、電子書籍で使用を許諾**→DynaSmart V
 - **ⓓ印刷物の制作や、利用者自身のWeb サイトのデザイン制作を許諾**→DynaSmart T
 
-# 「利用者のWebサイト以外での使用を禁止」の考察①{#prohibition-of-use-other-than-the-users-website-1}
+# ⓐ利用者のWebサイト以外での使用を禁止型の対処{#prohibition-of-use-other-than-the-users-website-1}
 
-- 「利用者のWebサイト」の定義が曖昧
+- 実際には「利用者のWebサイト」の定義が曖昧
    - たとえば作成者と所有者が分離している場合
-    - Webデザイナーが制作するWebサイト
-    - 「利用者」はWebデザイナーかサイト所有者か？
+        - Webデザイナーが制作するWebサイト
+        - 「利用者」はWebデザイナーかサイト所有者か？
+    - そこでドメインを登録してもらい「利用者」を特定
+        - つまり利用規約および運用によって問題を解決
 
-# 「利用者のWebサイト以外での使用を禁止」の考察②{#prohibition-of-use-other-than-the-users-website-2}
+# ⓑ利用者がデザイン、開発、作成するページ以外を禁止型{#prohibition-of-use-other-than-the-users-website-2}
 
 - ⓐ：利用規約では解決不能
     - そこでドメインを登録してもらい「利用者」を特定
-    - →利用規約および運用によって解決
+    - →
 - ⓑ：利用規約で利用者の範囲を明確化した
     - →Webデザイナーを対象とするサービスなので明確化？
 - ⓒ：ローカルフォントにWebフォントサービスが付帯
