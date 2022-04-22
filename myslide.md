@@ -171,7 +171,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 <div style="font-size: 70%;">
 
-※……Vivliostyleのサイトでは利用不可
+※……localhostでのみ利用可、Vivliostyleのサイトでは不可
 
 </div>
 
