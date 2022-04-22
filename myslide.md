@@ -44,7 +44,7 @@ title: VivliostyleでWebフォントを使う：調査編
 - ダイナコムウェア
     - Dyna Font Online（ダイナコムウェア）
 
-→フォントファウンダリー＝Webフォントサービスではない
+→Webフォントサービス＝フォントファウンダリーではない
 
 # Webフォントを読み込む方法{#how-to-load-Webfonts}
 
@@ -60,18 +60,18 @@ title: VivliostyleでWebフォントを使う：調査編
 - FONTPLUS（SBテクノロジー）③
 - TypeSquare（モリサワ）③
 - fonts.com（Monotype）②
-- DynaFontOnline（ダイナコムウェア）②③
+- DynaFont Online（ダイナコムウェア）②③
 - REALTYPE（リアルタイプ）③
 - Google Fonts（Google）②
 
 # 利用規約からみた<br/>Webフォントサービスの3類型{#terms-of-use-for-webfont-service}
 
-- ⓐ…利用者のWebサイト以外での使用を禁止方式
-- ⓑ…利用者がデザイン、開発、作成するページ以外を禁止方式
-- ⓒ…印刷物の制作、Webサイトのデザイン制作、電子書籍で使用を許諾
-    - ⓒ-b…印刷物の制作や、利用者自身のWeb サイトのデザイン制作を許諾
+- ⓐ…「利用者のWebサイト以外での使用を禁止」方式
+- ⓑ…「利用者がデザイン、開発、作成するページ以外を禁止」方式
+- ⓒ…「印刷物／Webサイトデザイン／電子書籍を許諾」方式
+    - ⓒ-b…「印刷物／利用者のWebサイトデザインを許諾」方式
 
-# ⓐ利用者のWebサイト以外での使用を禁止方式{#prohibition-of-use-other-than-the-users-website-1}
+# ⓐ「利用者がデザイン、開発、作成するページ以外を禁止」方式{#prohibition-of-use-other-than-the-users-website-1}
 
 - FONTPLUS、TypeSquare、fonts.com、REALTYPE
 - 実際には「利用者のWebサイト」の定義が曖昧
@@ -90,7 +90,8 @@ title: VivliostyleでWebフォントを使う：調査編
 
 
 
-# ⓒ
+# ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
+
     - ローカルフォントにWebフォントサービスが付帯 
     - →利用規約はローカルフォントとWebフォントを区別せず
 
