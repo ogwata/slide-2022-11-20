@@ -6,7 +6,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 ## 小形克宏<br/>2022年4月23日<br/>Vivliostyle ユーザーと開発者の集い
 
-# ToC {.toc hidden}
+# ToC {.toc hidden style="display: none"}
 
 1. [Webフォントサービスとフォントファウンダリー①](#webfontservices-and-fontfoundries-1)
 2. [Webフォントサービスとフォントファウンダリー②](#webfontservices-and-fontfoundries-2)
