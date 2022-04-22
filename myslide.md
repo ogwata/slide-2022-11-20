@@ -38,14 +38,6 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # Webフォントサービスと<br/>フォントファウンダリー②{#webfontservices-and-fontfoundries-2}
 
-- 大日本印刷
-    - REALTYPE（リアルタイプ）
-    - TypeSquare（モリサワ）
-    - FONTPLUS（SBテクノロジー）
-    - Adobe Fonts（アドビ）
-
-# Webフォントサービスと<br/>フォントファウンダリー③{#webfontservices-and-fontfoundries-3}
-
 - 字游工房
     - TypeSquare（モリサワ）
     - Adobe Fonts（アドビ）
