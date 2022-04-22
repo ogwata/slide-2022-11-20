@@ -162,9 +162,13 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # プロダクトごとの利用可否②{#availability-by-product-2}
 
-![](viewer.png){width=90%}
+![](viewer.png){width=80%}
+
+<div style="font-size: 80%;">
 
 ※……Vivliostyleのサイトでは利用不可
+
+</div>
 
 # プロダクトごとの利用可否③{#availability-by-product-3}
 
