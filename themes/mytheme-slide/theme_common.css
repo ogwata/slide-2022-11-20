@@ -1,11 +1,4 @@
 @charset "UTF-8";
-/*
- * For all media (print, screen)
- */
-/* you can import partial SCSS files */
-/* @import '_variables'; */
-/* @import '_toc'; */
-/* ... */
 html {
   font-family: "Optima", "Candara", "YuGothic", "Yu Gothic", "Meiryo", sans-serif;
   font-size: 150%;
@@ -57,7 +50,6 @@ html {
 body>section:first-child {
   page: cover;
   background-color: #076522;
-  /* background-image: url(https://vivliostyle.org/assets/header-image.svg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
