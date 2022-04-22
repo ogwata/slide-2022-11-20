@@ -67,7 +67,7 @@ title: VivliostyleでWebフォントを使う：調査編
 # 利用規約からみた<br/>Webフォントサービスの3類型{#terms-of-use-for-webfont-service}
 
 - ⓐ…「利用者のWebサイト以外での使用を禁止」方式
-- ⓑ…「利用者がデザイン、開発、作成するページ以外を禁止」方式
+- ⓑ…「利用者がデザイン、開発、作成するWebサイト以外を禁止」方式
 - ⓒ…「印刷物／Webサイトデザイン／電子書籍を許諾」方式
     - ⓒ-b…「印刷物／利用者のWebサイトデザインを許諾」方式
 
@@ -81,7 +81,7 @@ title: VivliostyleでWebフォントを使う：調査編
     - そこでドメインを登録してもらい「利用者」を特定
         - つまり利用規約＋その運用によって問題を解決
 
-# ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式{#prohibition-of-use-other-than-the-users-website-2}
+# ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#prohibition-of-use-other-than-the-users-website-2}
 
 - Adobe Fonts
 - 利用者の**使途**を定義することで許諾範囲を明確化
@@ -109,8 +109,8 @@ title: VivliostyleでWebフォントを使う：調査編
 - 以下に示すのは、ユーザの便宜をはかるため、各社と会話した上で独自に判断したもの
 - 私達が推奨した場合でも、個別に問い合わせて確認してほしい
 - 凡例
-   - ○……推奨
-   - ×……利用規約外の可能性が高い
+   - 🙆……推奨
+   - 🙅……利用規約外の可能性が高い
 
 # Vivliostyleプロダクトの3類型{#how-each-vivliostyle-product-handles-user-files-1}
 
@@ -125,16 +125,39 @@ title: VivliostyleでWebフォントを使う：調査編
 - Ⓒ自分のPC上のVivliostyle（fileプロトコル）
     - Vivliostyle CLI
 
-# 置かれている場所ごとの<br/>Webフォント利用可否{#how-each-vivliostyle-product-handles-user-files-3}
+# 置かれている場所ごとの<br/>Webフォント利用可否①{#how-each-vivliostyle-product-handles-user-files-3}
+
+<div style="font-size: 95%;">
 
 - ⒶVivliostyleのサイト上に置かれているVivliostyle
     - ⓐ「利用者のWebサイト以外での使用を禁止」方式
-        - 
+        - 「利用者のWebサイト」ではないので🙅
+    - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
+        - 「利用者がデザイン、開発、作成したWebサイト」ではないので🙅
+    - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
+        - 「Webサイトのデザイン制作」に該当し🙆
 
+</div>
 
+# 置かれている場所ごとの<br/>Webフォント利用可否②
 
 - Ⓑ自分のPC上のVivliostyle（localhost）
+    - ⓐ「利用者のWebサイト以外での使用を禁止」方式
+        - 「利用者のWebサイト」なので🙆
+    - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
+        - 「利用者がデザイン、開発、作成したWebサイト」なので🙆
+    - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
+        - 「Webサイトのデザイン制作」に該当し🙆
+
+# 置かれている場所ごとの<br/>Webフォント利用可否②
+
 - Ⓒ自分のPC上のVivliostyle（fileプロトコル）
+    - ⓐ「利用者のWebサイト以外での使用を禁止」方式
+        - そもそも「Webサイト」ではないので🙅
+    - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
+        - そもそも「Webサイト」ではないので🙅
+    - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
+        - 「Webサイトのデザイン制作」に該当し🙆
 
 # Vivliostyle CLI①{#vivliostyle-cli-1}
 
