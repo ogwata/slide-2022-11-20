@@ -122,20 +122,20 @@ title: VivliostyleでWebフォントを使う：調査編
 - Ⓑ自分のPC上のVivliostyle（localhost）
     - Vivliostyle Viewer 
     - Vivliostyle CLI
-- Ⓒ自分のPC上のVivliostyle（fileプロトコル）
+- Ⓒ自分のPC上のVivliostyle（fileプロトコル/そもそも技術的にWebフォント利用不可）
     - Vivliostyle CLI
 
 # 置かれた場所ごとの<br/>Webフォント利用可否①{#how-each-vivliostyle-product-handles-user-files-3}
 
 <div style="font-size: 88%;">
 
-- ⒶVivliostyleのサイト上に置かれたVivliostyle
+- **ⒶVivliostyleのサイト上に置かれたVivliostyle**
     - ⓐ「利用者のWebサイト以外での使用を禁止」方式
         - 「利用者のWebサイト」ではないので🙅
     - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
         - 「利用者がデザイン、開発、作成したWebサイト」ではないので🙅
     - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
-        - 「Webサイトのデザイン制作」に該当し🙆
+        - 「Webサイトのデザイン制作」なので🙆
     - ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式
         - 「利用者のWebサイト」ではないので🙅
 
@@ -143,15 +143,21 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # 置かれている場所ごとの<br/>Webフォント利用可否②
 
-- Ⓑ自分のPC上のVivliostyle（localhost）
+<div style="font-size: 90%;">
+
+- **Ⓑ自分のPC上のVivliostyle（localhost）**
     - ⓐ「利用者のWebサイト以外での使用を禁止」方式
         - 「利用者のWebサイト」なので🙆
     - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
         - 「利用者がデザイン、開発、作成したWebサイト」なので🙆
     - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
-        - 「Webサイトのデザイン制作」に該当し🙆
+        - 「Webサイトのデザイン制作」なので🙆
+    - ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式
+        - 「利用者のWebサイト」ではないので🙅
 
-# 置かれている場所ごとの<br/>Webフォント利用可否②
+</div>
+
+# 置かれている場所ごとの<br/>Webフォント利用可否③
 
 - Ⓒ自分のPC上のVivliostyle（fileプロトコル）
     - ⓐ「利用者のWebサイト以外での使用を禁止」方式
@@ -159,7 +165,7 @@ title: VivliostyleでWebフォントを使う：調査編
     - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
         - そもそも「Webサイト」ではないので🙅
     - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
-        - 「Webサイトのデザイン制作」に該当し🙆
+        - 「Webサイトのデザイン制作」なので🙆
 
 # Vivliostyle CLI①{#vivliostyle-cli-1}
 
