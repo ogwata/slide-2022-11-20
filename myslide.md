@@ -180,3 +180,5 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 ![](pub.png){width=90%}
 
 # まとめ{#summary}
+
+![](businessmodel.jpg){width=90%}
