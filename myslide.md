@@ -116,10 +116,10 @@ title: VivliostyleでWebフォントを使う：調査編
 
 プログラムが置かれた場所によって2種類に分類できる
 
-- ⒶVivliostyleのサイト上に置かれたVivliostyle
+- **ⒶVivliostyleのサイト上に置かれたVivliostyle**
     - Vivliostyle Viewer https://vivliostyle.org/viewer/
     - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
-- Ⓑ自分のPC上のVivliostyle（http://localhost）
+- **Ⓑ自分のPC上のVivliostyle（http://localhost）**
     - Vivliostyle Viewer 
     - Vivliostyle CLI
 
@@ -154,6 +154,9 @@ title: VivliostyleでWebフォントを使う：調査編
         - 「利用者のWebサイト」ではないので🙅
 
 </div>
+
+# プロダクトごとの利用可否
+
 
 # Vivliostyle CLI①{#vivliostyle-cli-1}
 
