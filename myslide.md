@@ -64,15 +64,16 @@ title: VivliostyleでWebフォントを使う：調査編
 - REALTYPE（リアルタイプ）③
 - Google Fonts（Google）②
 
-# Webフォントサービスにおける<br/>利用規約の種類{#terms-of-use-for-webfont-service}
+# 利用規約からみた<br/>Webフォントサービスの3類型{#terms-of-use-for-webfont-service}
 
-- **ⓐ利用者のWebサイト以外での使用を禁止**→FONTPLUS、TypeSquare、fonts.com、REALTYPE
-- **ⓑ利用者がデザイン、開発、作成するWebページコンテンツ以外での使用を禁止**→Adobe Fonts
-- **ⓒ印刷物の制作、Webサイトのデザイン制作、電子書籍で使用を許諾**→DynaSmart V
-- **ⓓ印刷物の制作や、利用者自身のWeb サイトのデザイン制作を許諾**→DynaSmart T
+- ⓐ…利用者のWebサイト以外での使用を禁止方式
+- ⓑ…利用者がデザイン、開発、作成するページ以外を禁止方式
+- ⓒ…印刷物の制作、Webサイトのデザイン制作、電子書籍で使用を許諾
+    - ⓒb…印刷物の制作や、利用者自身のWeb サイトのデザイン制作を許諾
 
-# ⓐ利用者のWebサイト以外での使用を禁止方式の対処{#prohibition-of-use-other-than-the-users-website-1}
+# ⓐ利用者のWebサイト以外での使用を禁止方式{#prohibition-of-use-other-than-the-users-website-1}
 
+- FONTPLUS、TypeSquare、fonts.com、REALTYPE
 - 実際には「利用者のWebサイト」の定義が曖昧
    - たとえば作成者と所有者が分離している場合
         - Webデザイナーが制作するWebサイト
@@ -82,13 +83,15 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式{#prohibition-of-use-other-than-the-users-website-2}
 
+- Adobe Fonts
 - 利用者の使途を定義することでWebフォントの利用範囲を明確化
-    - 単に「利用者のWebサイト」だけでなく、使途を明示
-    →Webデザイナーを対象とするサービスなので明確化？
+    - 単に「利用者のWebサイト」ではなく使途を明示
+    - →Webデザイナーを対象とするサービスなので明確化？
 
 
 
-- ⓒ：ローカルフォントにWebフォントサービスが付帯
+# ⓒ
+    - ローカルフォントにWebフォントサービスが付帯 
     - →利用規約はローカルフォントとWebフォントを区別せず
 
 # Vivliostyle各プロダクトが<br/>ユーザファイルを扱う仕組み①{#how-each-vivliostyle-product-handles-user-files-1}
