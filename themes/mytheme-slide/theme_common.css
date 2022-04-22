@@ -54,7 +54,7 @@ body>section:first-child {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15mm;
-  color: #fff;
+  color: rgb(241, 236, 236);
 
   @media print {
     height: 100vh;
