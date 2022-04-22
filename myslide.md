@@ -74,11 +74,11 @@ title: VivliostyleでWebフォントを使う：調査編
 - ⓒ…「印刷物／Webサイトデザイン／電子書籍を許諾」方式
     - ⓒ-b…「印刷物／利用者のWebサイトデザインを許諾」方式
 
-→ⓑはAdobe Fonts、ⓒはダイナコムウェア
+→ⓑはAdobe Fonts、ⓒはダイナコムウェア、ⓐはそれ以外全部
 
 # ⓐ「利用者のWebサイト以外での使用を禁止」方式{#prohibition-of-use-other-than-the-users-website}
 
-- FONTPLUS、TypeSquare、fonts.com、REALTYPE
+- [FONTPLUS](https://fontplus.jp/terms)、[TypeSquare](https://typesquare.com/ja/privacy/rule)、[fonts.com](https://www.fonts.com/info/legal/eula/pay-once)、[REALTYPE](https://info.realtype.jp/terms/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/)
 - 実際には「利用者のWebサイト」の定義が曖昧
    - たとえば作成者と所有者が分離している場合
         - Webデザイナーが制作するWebサイト
@@ -88,21 +88,22 @@ title: VivliostyleでWebフォントを使う：調査編
 
 # ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#prohibits-websites-other-than-those-designed-developed-or-created-by-the-user}
 
-- Adobe Fonts
+- [Adobe Fonts](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
 - 利用者の**使途**を定義することで許諾範囲を明確化
     - 単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するWebサイト以外」と使途を明確化
+        - ドメイン登録はなし
     - →Dreamweaverで仕事をする人（クリエイター）のための利用規約
 
 # ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式{#printing-website-design-and-ebooks-are-permitted}
 
 <div style="font-size: 95%;">
 
-- DynaSmartVに付帯するDynaFont Online
+- [DynaSmartV](https://www.dynacw.co.jp/FileUpload/Portals/file/DynaSmart/DynaSmartV-license.pdf)に付帯するDynaFont Online
     - ローカルフォント年間ライセンスにWebフォントサービスが付帯している 
         - ローカルフォントとWebフォントが同じ利用規約
         - ローカルフォントと同じ許諾範囲でWebフォントが使える
 - **ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式**
-    - DynaSmartTに有償オプションでDynaFont Onlineが利用可能
+    - [DynaSmartT](https://www.dynacw.co.jp/FileUpload/Portals/file/DynaSmart/DynaSmartT-license.pdf)に有償オプションでDynaFont Onlineが利用可能
     - ⓒと同じ構造だが、範囲を絞っている
 
 </div>
@@ -156,7 +157,7 @@ title: VivliostyleでWebフォントを使う：調査編
     - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
         - 「Webサイトのデザイン制作」なので🙆
     - ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式
-        - 「利用者のWebサイト」ではないので🙅
+        - 「利用者のWebサイト」なので🙆
 
 </div>
 
