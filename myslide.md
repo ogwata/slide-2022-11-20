@@ -71,7 +71,7 @@ title: VivliostyleでWebフォントを使う：調査編
 - **ⓒ印刷物の制作、Webサイトのデザイン制作、電子書籍で使用を許諾**→DynaSmart V
 - **ⓓ印刷物の制作や、利用者自身のWeb サイトのデザイン制作を許諾**→DynaSmart T
 
-# ⓐ利用者のWebサイト以外での使用を禁止型の対処{#prohibition-of-use-other-than-the-users-website-1}
+# ⓐ利用者のWebサイト以外での使用を禁止方式の対処{#prohibition-of-use-other-than-the-users-website-1}
 
 - 実際には「利用者のWebサイト」の定義が曖昧
    - たとえば作成者と所有者が分離している場合
@@ -80,13 +80,14 @@ title: VivliostyleでWebフォントを使う：調査編
     - そこでドメインを登録してもらい「利用者」を特定
         - つまり利用規約および運用によって問題を解決
 
-# ⓑ利用者がデザイン、開発、作成するページ以外を禁止型{#prohibition-of-use-other-than-the-users-website-2}
+# ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式{#prohibition-of-use-other-than-the-users-website-2}
 
-- ⓐ：利用規約では解決不能
-    - そこでドメインを登録してもらい「利用者」を特定
-    - →
-- ⓑ：利用規約で利用者の範囲を明確化した
-    - →Webデザイナーを対象とするサービスなので明確化？
+- 利用者の使途を定義することでWebフォントの利用範囲を明確化
+    - 単に「利用者のWebサイト」だけでなく、使途を明示
+    →Webデザイナーを対象とするサービスなので明確化？
+
+
+
 - ⓒ：ローカルフォントにWebフォントサービスが付帯
     - →利用規約はローカルフォントとWebフォントを区別せず
 
