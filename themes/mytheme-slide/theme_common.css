@@ -15,7 +15,7 @@ html {
   font-size: 11pt;
   line-height: 1.2;
 
-  @top-right-corner {
+  @bottom-center {
     margin-top: 7mm;
     content: counter(page);
   }
@@ -54,7 +54,7 @@ body>section:first-child {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15mm;
-  color: rgb(241, 236, 236);
+  color: rgb(252, 249, 249);
 
   @media print {
     height: 100vh;
