@@ -61,6 +61,7 @@ body>section:first-child {
   }
 
   h1 {
+    font-family: "Helvetica", "DFKingGothicJP16N-Medium";
     color: inherit;
     font-weight: 600;
     font-size: 220%;
