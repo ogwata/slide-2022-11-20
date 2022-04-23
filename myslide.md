@@ -136,8 +136,8 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 プログラムが置かれる場所によって2種類に分類できる
 
 - **ⒶVivliostyleのサイト上に置かれたVivliostyle**
-    - Vivliostyle Viewer https://vivliostyle.org/viewer/
     - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
+    - Vivliostyle Viewer https://vivliostyle.org/viewer/
 - **Ⓑ自分のPC上のVivliostyle（http://localhost）**
     - Vivliostyle Viewer 
     - Vivliostyle CLI
