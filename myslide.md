@@ -141,7 +141,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
     - Vivliostyle Viewer 
     - Vivliostyle CLI
 
-# 置かれた場所ごとの<br/>Webフォント利用可否①{#web-font-availability-by-location-1}
+# 置かれる場所ごとの<br/>Webフォント利用可否①{#web-font-availability-by-location-1}
 
 <div style="font-size: 88%;">
 
@@ -157,7 +157,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 </div>
 
-# 置かれている場所ごとの<br/>Webフォント利用可否②{#web-font-availability-by-location-2}
+# 置かれる場所ごとの<br/>Webフォント利用可否②{#web-font-availability-by-location-2}
 
 <div style="font-size: 90%;">
 
