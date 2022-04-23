@@ -200,3 +200,15 @@ FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが
 
 ![](businessmodel.jpg){width=90%}
 
+# 謝辞
+
+## この発表では以下のWebフォントサービスを利用しました
+
+- [ダイナコムウェア／金剛黒体](https://www.dynacw.co.jp/king/)
+
+
+<div  style="font-size: 250%;">
+
+**ありがとうございました**
+
+</div>
