@@ -5,6 +5,8 @@ title: VivliostyleでWebフォントを使う：調査編
 <script>FontJSON={User:"42596" ,DomainID:"D0008738MFR", Font:["DFUDMinchoJP13N-W2","DFKingGothicJP16-Light","DFKingGothicJP16N-Medium","DFKingGothicJP16N-Semibold","DFKaiShoStd-W5"]}</script>
 <script src='https://dfo.dynacw.co.jp/JSDynaFont/DynaFont.js'></script>
 
+<script src="https://webfont.fontplus.jp/accessor/script/fontplus.js?x0218KZD7HQ%3D&box=0N3ZUIPspWU%3D&aa=1&ab=2"></script>
+
 # Vivliostyleで<br/>Webフォントを使う：調査編 {.cover}
 
 ## 小形克宏
@@ -197,3 +199,4 @@ FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが
 # まとめ{#summary}
 
 ![](businessmodel.jpg){width=90%}
+
