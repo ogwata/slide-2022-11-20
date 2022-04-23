@@ -132,7 +132,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 # Vivliostyleプロダクトの2類型{#two-types-of-vivliostyle-products}
 
-プログラムが置かれた場所によって2種類に分類できる
+プログラムが置かれる場所によって2種類に分類できる
 
 - **ⒶVivliostyleのサイト上に置かれたVivliostyle**
     - Vivliostyle Viewer https://vivliostyle.org/viewer/
