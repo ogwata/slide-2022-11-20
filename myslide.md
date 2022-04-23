@@ -100,7 +100,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 # ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#prohibits-websites-other-than-those-designed-developed-or-created-by-the-user}
 
 - [Adobe Fonts](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
-- …「利用者のWebサイト以外での使用を禁止」方式の修正版
+- 「利用者のWebサイト以外での使用を禁止」方式の修正版
 - 利用者の**使途**を定義することで許諾範囲を明確化
     - 単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するWebサイト以外」と使途を明確化
         - ドメイン登録はなし
