@@ -11,9 +11,10 @@ title: VivliostyleでWebフォントを使う：調査編
 
 ### 2022年4月23日<br/>Vivliostyle ユーザーと開発者の集い2022春
 
-# ToC {.toc hidden style="display: none"}
-
 <div style="break-after: page;">
+
+# ToC {.toc hidden}
+
 
 1. [Webフォントサービスとフォントファウンダリー①](#webfontservices-and-fontfoundries-1)
 2. [Webフォントサービスとフォントファウンダリー②](#webfontservices-and-fontfoundries-2)
@@ -34,6 +35,8 @@ title: VivliostyleでWebフォントを使う：調査編
 
 </div>
 
+<div style="break-after: page;">
+
 # Webフォントサービスと<br/>フォントファウンダリー①{#webfontservices-and-fontfoundries-1}
 
 - SCREENホールディングス
@@ -41,6 +44,7 @@ title: VivliostyleでWebフォントを使う：調査編
     - TypeSquare（モリサワ）
     - FONTPLUS（SBテクノロジー）
     - fonts.com（Monotype）
+</div>
 
 # Webフォントサービスと<br/>フォントファウンダリー②{#webfontservices-and-fontfoundries-2}
 
