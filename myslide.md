@@ -204,10 +204,10 @@ FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが
 
 ## この発表では以下のWebフォントサービスを利用しました
 
-- [ダイナコムウェア／金剛黒体](https://www.dynacw.co.jp/king/)
+- [ダイナコムウェア／ＤＦ金剛黒体 Pro-6N Medium](https://www.dynacw.co.jp/king/)
 
 
-<div  style="font-size: 250%;">
+<div  style="font-size: 280%;">
 
 **ありがとうございました**
 
