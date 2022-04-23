@@ -46,6 +46,7 @@ title: VivliostyleでWebフォントを使う：調査編
     - TypeSquare（モリサワ）
     - FONTPLUS（SBテクノロジー）
     - fonts.com（Monotype）
+
 </div>
 
 # Webフォントサービスと<br/>フォントファウンダリー②{#webfontservices-and-fontfoundries-2}
