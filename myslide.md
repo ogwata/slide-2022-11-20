@@ -198,10 +198,6 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 </div>
 
-# まとめ{#summary}
-
-![](businessmodel.jpg){width=90%}
-
 # 謝辞
 
 ## この発表では以下のWebフォントサービスを利用しました
