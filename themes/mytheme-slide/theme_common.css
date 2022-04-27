@@ -55,6 +55,7 @@ body>section:first-child {
   background-size: cover;
   padding: 15mm;
   color: rgb(252, 249, 249);
+}
 
 @media print {
     height: 100vh;
