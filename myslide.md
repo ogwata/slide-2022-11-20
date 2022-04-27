@@ -66,6 +66,8 @@ title: VivliostyleでWebフォントを使う：調査編
 - ③script要素
     - JavaScriptでフォントのサブセットを動的に生成し読み込む
 
+→Vivliostyle.jsはすべての方式に対応ずみ
+
 # Webフォントサービスごとの読み込み方法{#how-to-load-each-webfont-service}
 
 - FONTPLUS（SBテクノロジー）③
