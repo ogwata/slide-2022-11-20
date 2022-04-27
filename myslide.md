@@ -192,7 +192,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 <div style="font-size: 60%;">
 
-※……FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが、ブログと同じと解釈し、プレビューのみ🙆　ただし、PDF出力等については要問い合わせ
+※……FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが、ブログと同じと解釈しプレビューのみ🙆　ただし、PDF出力等については要問い合わせ
 
 </div>
 
