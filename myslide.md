@@ -194,7 +194,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 ## この発表では以下のWebフォントサービスを利用しました
 
-- [ダイナコムウェア／ＤＦ金剛黒体 Pro-6N Medium](https://www.dynacw.co.jp/king/)
+- [Dyna Font Online（ダイナコムウェア）／ＤＦ金剛黒体 Pro-6N Medium](https://www.dynacw.co.jp/king/)
 
 
 <div  style="font-size: 260%;">
