@@ -57,10 +57,6 @@ body>section:first-child {
   color: rgb(252, 249, 249);
 }
 
-@media print {
-    height: 100vh;
-  }
-
 body > section:first-child h1 {
   color: inherit;
   font-weight: 600;
@@ -83,29 +79,6 @@ body > section:first-child a {
 
 section.toc {
   page-break-before: always;
-section.toc h1 {
-  color: #06a;
-  font-size: 120%;
-  font-weight: 600;
-  margin: 0 0 0.5em;
-}
-section.toc > ol {
-  font-size: 83%;
-  margin: 0;
-}
-section.toc > ol > li {
-  padding-top: 0.125em;
-  padding-bottom: 0.125em;
-}
-section.toc li a {
-  text-decoration: none;
-}
-section.toc ol li a::after {
-  content: "　" target-counter(attr(href url), page);
-}
-section.toc > ol > li > ol {
-  font-size: 83%;
-}
 }
 
 /* Section */
