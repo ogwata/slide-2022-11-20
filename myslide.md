@@ -197,7 +197,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 - [ダイナコムウェア／ＤＦ金剛黒体 Pro-6N Medium](https://www.dynacw.co.jp/king/)
 
 
-<div  style="font-size: 280%;">
+<div  style="font-size: 260%;">
 
 **ありがとうございました**
 
