@@ -48,7 +48,7 @@ html {
 
 /* 表紙 */
 
-body>section:first-child {
+//body>section:first-child {
   page: cover;
   background-color: #076522;
   background-position: center;
@@ -85,14 +85,13 @@ section.toc {
 /* Section */
 
 h1 {
-  string-set: h1title content();
-  color: #06A;
-  font-size: 250%;
-  font-weight: 600;
-  margin-top: 30mm;
-  page-break-after: avoid;
-  page-break-before: always;
-  page-break-inside: avoid;
+    color: inherit;
+    font-weight: 600;
+    font-size: 220%;
+    text-align: center;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /* Subsections */
