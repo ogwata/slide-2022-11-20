@@ -192,7 +192,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 # 謝辞
 
-## この発表では以下のWebフォントサービスを利用しました
+## この発表における和文書体は<br/>以下のWebフォントサービスを利用しました
 
 - [Dyna Font Online（ダイナコムウェア）／ＤＦ金剛黒体 Pro-6N Medium](https://www.dynacw.co.jp/king/)
 
