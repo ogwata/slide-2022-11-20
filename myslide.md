@@ -15,15 +15,12 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - その用途は思われているよりずっと多様です
 
 
-# Webフォントサービスと<br/>フォントファウンダリー②{#}
+# 3. Vivliostyleといえば印刷用PDFの作成？{#preconception}
 
-- 字游工房
-    - TypeSquare（モリサワ）
-    - Adobe Fonts（アドビ）
-- ダイナコムウェア
-    - Dyna Font Online（ダイナコムウェア）
+- 技術書典が近づくとVivliostyle CLIのダウンロードが増える
+- 印刷用PDFの作成はVivliostyleのブルーオーシャン
+- しかし、Vivliostyleの用途ってそれだけ？
 
-→Webフォントサービス＝フォントファウンダリーではない
 
 # Webフォントを読み込む方法{#}
 
