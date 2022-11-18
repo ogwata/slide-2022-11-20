@@ -25,8 +25,9 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - しかし、Vivliostyleの用途ってそれだけ？
 
 
-# 9月に話題になったQiitaの記事{qiita#}
+# 社内文書の共同編集の事例{qiita#}
 
+- 9月に話題になったQiitaの記事 
 - [納品ドキュメントの作成に<br/>Markdown+Vivliostyleを採用した話](https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e)
     - 社内文書の共同編集／閲覧にVivliostyleを利用
     - ざっと趣旨を紹介→
@@ -70,34 +71,15 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # ファーストマリンサービス(株)の活用事例②{#fms-2}
 
-![](FMS-system.jpg){width=64% display: block; margin-left: auto; margin-right: auto }
+![](FMS_sample-b.png){width=64% margin:auto;}
 
-# Vivliostyleプロダクトの2類型{#}
+# ファーストマリンサービス(株)の活用事例③{#fms-3}
 
-プログラムが置かれる場所によって2種類に分類できる
+![](FMS-system.jpg){width=64% margin:auto;}
 
-- **ⒶVivliostyleのサイト上に置かれたVivliostyle**
-    - Vivliostyle Pub https://vivliostyle-pub-develop.vercel.app
-    - Vivliostyle Viewer https://vivliostyle.org/viewer/
-- **Ⓑ自分のPC上のVivliostyle（http://localhost）**
-    - Vivliostyle Viewer 
-    - Vivliostyle CLI
+# ファーストマリンサービス(株)の活用事例④{#fms-4}
 
-# 置かれる場所ごとの<br/>Webフォント利用可否①{#}
-
-<div style="font-size: 88%;">
-
-- **ⒶVivliostyleのサイト上に置かれたVivliostyle**
-    - ⓐ「利用者のWebサイト以外での使用を禁止」方式
-        - 「利用者のWebサイト」でないので🙅
-    - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
-        - 「利用者がデザイン、開発、作成したWebサイト」でないので🙅
-    - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
-        - 「Webサイトのデザイン制作」なので🙆
-    - ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式
-        - 「利用者のWebサイト」でないので🙅
-
-</div>
+![](FMS-system.jpg){width=64% margin:auto;}
 
 # 置かれる場所ごとの<br/>Webフォント利用可否②{#}
 
