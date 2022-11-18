@@ -71,7 +71,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # ファーストマリンサービス(株)の活用事例②{#fms-2}
 
-![同社のシステム](/FMS-system.jpg)
+![同社のシステム](FMS-system.jpg)
 
 # Vivliostyleプロダクトの2類型{#}
 
