@@ -1,8 +1,6 @@
-# Slide 20220423 2
+# Vivliostyle、<br/>もう一つのブルーオーシャン
 
-VivliostyleでWebフォントを使う：調査編
-
-> created by [create-book](https://github.com/vivliostyle/create-book).
+Slide 2022-11-20
 
 ## References
 
