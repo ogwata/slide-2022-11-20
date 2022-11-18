@@ -1,45 +1,24 @@
 ---
-title: VivliostyleでWebフォントを使う：調査編
+title: Vivliostyle、もう一つのブルーオーシャン
 ---
 
 <script>FontJSON={User:"42596" ,DomainID:"D0008738MFR", Font:["DFUDMinchoJP13N-W2","DFKingGothicJP16-Light","DFKingGothicJP16N-Medium","DFKingGothicJP16N-Semibold","DFKaiShoStd-W5"]}</script>
 <script src='https://dfo.dynacw.co.jp/JSDynaFont/DynaFont.js'></script>
 
-# Vivliostyleで<br/>Webフォントを使う：調査編 {.cover}
+# Vivliostyle<br/>もう一つのブルーオーシャン{.cover}
 
 ## 小形克宏
 
-### 2022年4月23日<br/>Vivliostyle ユーザーと開発者の集い2022春
-
-# ToC {.toc hidden}
+### 2022年11月20日<br/>Vivliostyle ユーザーと開発者の集い2022秋
 
 
-1. [Webフォントサービスとフォントファウンダリー①](#webfontservices-and-fontfoundries-1)
-2. [Webフォントサービスとフォントファウンダリー②](#webfontservices-and-fontfoundries-2)
-4. [Webフォントを読み込む方法](#how-to-load-Webfonts)
-5. [Webフォントサービスごとの読み込み方法](#how-to-load-each-webfont-service)
-6. [利用規約からみたWebフォントサービスの3類型](#terms-of-use-for-webfont-service)
-7. [ⓐ「利用者のWebサイト以外での使用を禁止」方式](#prohibition-of-use-other-than-the-users-website)
-8. [ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式](#prohibits-websites-other-than-those-designed-developed-or-created-by-the-user)
-10. [ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式](#printing-website-design-and-ebooks-are-permitted)
-10. [Vivliostyleで利用できるWebフォントサービス](#web-font-services-available-in-vivliostyle)
-11. [Vivliostyleプロダクトの2類型](#two-types-of-vivliostyle-products)
-12. [置かれた場所ごとのWebフォント利用可否①](#web-font-availability-by-location-1)
-13. [置かれた場所ごとのWebフォント利用可否②](#web-font-availability-by-location-2)
-15. [プロダクトごとの利用可否①](#availability-by-product-1)
-16. [プロダクトごとの利用可否②](#availability-by-product-2)
-16. [プロダクトごとの利用可否③](#availability-by-product-3)
-21. [まとめ](#summary)
+# 2. 本日のアジェンダ{#agenda}
 
-# Webフォントサービスと<br/>フォントファウンダリー①{#webfontservices-and-fontfoundries-1}
+- Vivliostyle.jsはライブラリです
+- その用途は思われているよりずっと多様です
 
-- SCREENホールディングス
-    - REALTYPE（リアルタイプ）
-    - TypeSquare（モリサワ）
-    - FONTPLUS（SBテクノロジー）
-    - fonts.com（Monotype）
 
-# Webフォントサービスと<br/>フォントファウンダリー②{#webfontservices-and-fontfoundries-2}
+# Webフォントサービスと<br/>フォントファウンダリー②{#}
 
 - 字游工房
     - TypeSquare（モリサワ）
@@ -49,7 +28,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 →Webフォントサービス＝フォントファウンダリーではない
 
-# Webフォントを読み込む方法{#how-to-load-Webfonts}
+# Webフォントを読み込む方法{#}
 
 - ①@font-face
      - サーバに置いたフォントを読み込む
@@ -60,7 +39,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 →Vivliostyle.jsはすべての方式に対応ずみ
 
-# Webフォントサービスごとの読み込み方法{#how-to-load-each-webfont-service}
+# Webフォントサービスごとの読み込み方法{#}
 
 - FONTPLUS（SBテクノロジー）③
 - TypeSquare（モリサワ）③
@@ -71,7 +50,7 @@ title: VivliostyleでWebフォントを使う：調査編
 
 JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
-# 利用規約からみた<br/>Webフォントサービスの3類型{#terms-of-use-for-webfont-service}
+# 利用規約からみた<br/>Webフォントサービスの3類型{#}
 
 - ⓐ…「利用者のWebサイト以外での使用を禁止」方式
 - ⓑ…「利用者がデザイン、開発、作成するWebサイト以外を禁止」方式
@@ -80,7 +59,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 →ⓑはAdobe Fonts、ⓒはダイナコムウェア、ⓐはそれ以外全部
 
-# ⓐ「利用者のWebサイト以外での使用を禁止」方式{#prohibition-of-use-other-than-the-users-website}
+# ⓐ「利用者のWebサイト以外での使用を禁止」方式{#}
 
 - [FONTPLUS](https://fontplus.jp/terms)、[TypeSquare](https://typesquare.com/ja/privacy/rule)、[fonts.com](https://www.fonts.com/info/legal/eula/pay-once)、[REALTYPE](https://info.realtype.jp/terms/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/)
 - 実際には「利用者のWebサイト」の定義が曖昧
@@ -90,7 +69,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
     - そこでドメインを登録してもらい「利用者」を特定
         - つまり利用規約＋その運用によって問題を解決
 
-# ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#prohibits-websites-other-than-those-designed-developed-or-created-by-the-user}
+# ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#}
 
 - [Adobe Fonts](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
 - 「利用者のWebサイト以外での使用を禁止」方式の修正版
@@ -99,9 +78,9 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
         - ドメイン登録はなし
     - →Dreamweaverで仕事をする人（クリエイター）のための利用規約
 
-# ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式{#printing-website-design-and-ebooks-are-permitted}
+# ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式{#}
 
-<div style="font-size: 95%;">
+
 
 - [DynaSmartV](https://www.dynacw.co.jp/FileUpload/Portals/file/DynaSmart/DynaSmartV-license.pdf)に付帯するDynaFont Online
     - ローカルフォント年間ライセンスにWebフォントサービスが付帯している 
@@ -113,7 +92,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 </div>
 
-# Vivliostyleで利用できる<br/>Webフォントサービス{#web-font-services-available-in-vivliostyle}
+# Vivliostyleで利用できる<br/>Webフォントサービス{#}
 
 - 基本的には契約者間で決めること
 - 第三者であるVivliostyleが利用保証はできない
@@ -123,7 +102,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
    - 🙆……推奨
    - 🙅……利用規約外の可能性が高い
 
-# Vivliostyleプロダクトの2類型{#two-types-of-vivliostyle-products}
+# Vivliostyleプロダクトの2類型{#}
 
 プログラムが置かれる場所によって2種類に分類できる
 
@@ -134,7 +113,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
     - Vivliostyle Viewer 
     - Vivliostyle CLI
 
-# 置かれる場所ごとの<br/>Webフォント利用可否①{#web-font-availability-by-location-1}
+# 置かれる場所ごとの<br/>Webフォント利用可否①{#}
 
 <div style="font-size: 88%;">
 
@@ -150,7 +129,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 </div>
 
-# 置かれる場所ごとの<br/>Webフォント利用可否②{#web-font-availability-by-location-2}
+# 置かれる場所ごとの<br/>Webフォント利用可否②{#}
 
 <div style="font-size: 90%;">
 
@@ -166,29 +145,26 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 
 </div>
 
-# プロダクトごとの利用可否①{#availability-by-product-1}
+# プロダクトごとの利用可否①{#}
 
-![](cli.png){width=90%}
 
-# プロダクトごとの利用可否②{#availability-by-product-2}
 
-![](viewer.png){width=85%}
+# プロダクトごとの利用可否②{#}
 
-<div style="font-size: 70%;">
+
+
+
 
 ※……localhostでのみ利用可、Vivliostyleのサイトでは不可
 
-</div>
 
-# プロダクトごとの利用可否③{#availability-by-product-3}
 
-![](pub.png){width=80%}
+# プロダクトごとの利用可否③{#}
 
-<div style="font-size: 60%;">
 
 ※……FONTPLUSは「利用者のWebサイト以外での使用を禁止」方式だが、ブログと同じと解釈しプレビューのみ🙆　ただし、PDF出力等については要問い合わせ
 
-</div>
+
 
 # 謝辞
 
@@ -197,8 +173,7 @@ JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
 - [Dyna Font Online（ダイナコムウェア）／ＤＦ金剛黒体 Pro-6N Medium](https://www.dynacw.co.jp/king/)
 
 
-<div  style="font-size: 260%;">
+
 
 **ありがとうございました**
 
-</div>
