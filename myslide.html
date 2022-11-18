@@ -37,110 +37,72 @@
     <section qiita#="" id="9月に話題になったqiitaの記事" class="level1">
       <h1 qiita#="">9月に話題になったQiitaの記事</h1>
       <ul>
-        <li>①@font-face
+        <li><a href="https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e">納品ドキュメントの作成に<br>Markdown+Vivliostyleを採用した話</a>
           <ul>
-            <li>サーバに置いたフォントを読み込む</li>
-          </ul>
-        </li>
-        <li>②@import／link要素
-          <ul>
-            <li>サーバに置いたスタイルシートを読み込む</li>
-          </ul>
-        </li>
-        <li>③script要素
-          <ul>
-            <li>JavaScriptでフォントのサブセットを動的に生成し読み込む</li>
+            <li>社内文書の共同編集／閲覧にVivliostyleを利用</li>
+            <li>ざっと趣旨を紹介→</li>
           </ul>
         </li>
       </ul>
-      <p>→Vivliostyle.jsはすべての方式に対応ずみ</p>
     </section>
-    <section id="webフォントサービスごとの読み込み方法" class="level1">
-      <h1>Webフォントサービスごとの読み込み方法{#}</h1>
+    <section id="tommy-1" class="level1">
+      <h1>納品ドキュメントの作成に<br>Markdown+Vivliostyle①</h1>
       <ul>
-        <li>FONTPLUS（SBテクノロジー）③</li>
-        <li>TypeSquare（モリサワ）③</li>
-        <li>fonts.com（Monotype）②</li>
-        <li>DynaFont Online（ダイナコムウェア）②③</li>
-        <li>REALTYPE（リアルタイプ）③</li>
-        <li>Google Fonts（Google）②</li>
+        <li>社内文書にWordを使うデメリット
+          <ul>
+            <li>共同編集すると、編集したところが消える</li>
+            <li>フォントやデザインがなぜか統一されない</li>
+            <li>セクションごとに担当を分けても、マージが手作業</li>
+          </ul>
+        </li>
       </ul>
-      <p>JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ</p>
     </section>
-    <section id="利用規約からみたbrwebフォントサービスの3類型" class="level1">
-      <h1>利用規約からみた<br>Webフォントサービスの3類型{#}</h1>
+    <section id="tommy-2" class="level1">
+      <h1>納品ドキュメントの作成に<br>Markdown+Vivliostyle②</h1>
       <ul>
-        <li>ⓐ…「利用者のWebサイト以外での使用を禁止」方式</li>
-        <li>ⓑ…「利用者がデザイン、開発、作成するWebサイト以外を禁止」方式</li>
-        <li>ⓒ…「印刷物／Webサイトデザイン／電子書籍を許諾」方式
+        <li>Markdownのメリット・デメリット
           <ul>
-            <li>ⓒ-b…「印刷物／利用者のWebサイトデザインを許諾」方式</li>
+            <li>Markdownが使うことで執筆とデザインを分離できる</li>
+            <li>その一方で図版キャプション等、記法に限界がある</li>
           </ul>
         </li>
       </ul>
-      <p>→ⓑはAdobe Fonts、ⓒはダイナコムウェア、ⓐはそれ以外全部</p>
     </section>
-    <section id="ⓐ利用者のwebサイト以外での使用を禁止方式" class="level1">
-      <h1>ⓐ「利用者のWebサイト以外での使用を禁止」方式{#}</h1>
+    <section id="tommy-3" class="level1">
+      <h1>納品ドキュメントの作成に<br>Markdown+Vivliostyle③</h1>
       <ul>
-        <li><a href="https://fontplus.jp/terms">FONTPLUS</a>、<a href="https://typesquare.com/ja/privacy/rule">TypeSquare</a>、<a href="https://www.fonts.com/info/legal/eula/pay-once">fonts.com</a>、<a href="https://info.realtype.jp/terms/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/">REALTYPE</a></li>
-        <li>実際には「利用者のWebサイト」の定義が曖昧
+        <li>Vivliostyleのメリット・デメリット
           <ul>
-            <li>たとえば作成者と所有者が分離している場合
-              <ul>
-                <li>Webデザイナーが制作するWebサイト</li>
-                <li>「利用者」はWebデザイナーかサイト所有者か？</li>
-              </ul>
-            </li>
-            <li>そこでドメインを登録してもらい「利用者」を特定
-              <ul>
-                <li>つまり利用規約＋その運用によって問題を解決</li>
-              </ul>
-            </li>
+            <li>VFMなら図版キャプションができる</li>
+            <li>SCSSでスタイル指定できる</li>
+            <li>ページごとにスタイルを変えられる</li>
+            <li>PDF出力が簡単</li>
+            <li>しかし、tableにキャプションが入れられない</li>
           </ul>
         </li>
       </ul>
     </section>
-    <section id="ⓑ利用者がデザイン開発作成するwebサイト以外を禁止方式" class="level1">
-      <h1>ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#}</h1>
+    <section id="tommy-4" class="level1">
+      <h1>納品ドキュメントの作成に<br>Markdown+Vivliostyle④</h1>
       <ul>
-        <li><a href="https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf">Adobe Fonts</a></li>
-        <li>「利用者のWebサイト以外での使用を禁止」方式の修正版</li>
-        <li>利用者の<strong>使途</strong>を定義することで許諾範囲を明確化
+        <li>作者のとみー氏は10月開発者会議でさらに詳しく報告
           <ul>
-            <li>単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するWebサイト」と使途を明確化
-              <ul>
-                <li>ドメイン登録はなし</li>
-              </ul>
-            </li>
-            <li>→Dreamweaverで仕事をする人（クリエイター）のための利用規約</li>
+            <li><a href="https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf">製造業でドキュメントをVivliostyleで運用した話</a></li>
           </ul>
         </li>
+        <li>VivliostyleのSlackで公開しています</li>
       </ul>
     </section>
-    <section id="ⓒ印刷物webサイトデザイン電子書籍を許諾方式" class="level1">
-      <h1>ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式{#}</h1>
+    <section id="fms-1" class="level1">
+      <h1>ファーストマリンサービス(株)の活用事例①</h1>
       <ul>
-        <li><a href="https://www.dynacw.co.jp/FileUpload/Portals/file/DynaSmart/DynaSmartV-license.pdf">DynaSmartV</a>に付帯するDynaFont Online
-          <ul>
-            <li>ローカルフォント年間ライセンスにWebフォントサービスが付帯している
-              <ul>
-                <li>ローカルフォントとWebフォントが同じ利用規約</li>
-                <li>ローカルフォントと同じ許諾範囲でWebフォントが使える</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><strong>ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式</strong>
-          <ul>
-            <li><a href="https://www.dynacw.co.jp/FileUpload/Portals/file/DynaSmart/DynaSmartT-license.pdf">DynaSmartT</a>に有償オプションでDynaFont Onlineが利用可能</li>
-            <li>ⓒと同じ構造だが、範囲を絞っている</li>
-          </ul>
-        </li>
+        <li>同社は国際輸送の船舶管理会社</li>
+        <li>同社が管理する船舶は世界中に散在している</li>
+        <li>海外運行中の船舶向け各種書類を、Vivliostyle Pubで作成</li>
       </ul>
     </section>
-    <section id="vivliostyleで利用できるbrwebフォントサービス" class="level1">
-      <h1>Vivliostyleで利用できる<br>Webフォントサービス{#}</h1>
+    <section id="fms-2" class="level1">
+      <h1>ファーストマリンサービス(株)の活用事例②</h1>
       <ul>
         <li>基本的には契約者間で決めること</li>
         <li>第三者であるVivliostyleが利用保証はできない</li>

@@ -27,69 +27,49 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # 9月に話題になったQiitaの記事{qiita#}
 
-- ①@font-face
-     - サーバに置いたフォントを読み込む
-- ②@import／link要素
-    - サーバに置いたスタイルシートを読み込む
-- ③script要素
-    - JavaScriptでフォントのサブセットを動的に生成し読み込む
+- [納品ドキュメントの作成に<br/>Markdown+Vivliostyleを採用した話](https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e)
+    - 社内文書の共同編集／閲覧にVivliostyleを利用
+    - ざっと趣旨を紹介→
 
-→Vivliostyle.jsはすべての方式に対応ずみ
+# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle①{#tommy-1}
 
-# Webフォントサービスごとの読み込み方法{#}
+- 社内文書にWordを使うデメリット
+    - 共同編集すると、編集したところが消える
+    - フォントやデザインがなぜか統一されない
+    - セクションごとに担当を分けても、マージが手作業
 
-- FONTPLUS（SBテクノロジー）③
-- TypeSquare（モリサワ）③
-- fonts.com（Monotype）②
-- DynaFont Online（ダイナコムウェア）②③
-- REALTYPE（リアルタイプ）③
-- Google Fonts（Google）②
 
-JavaScript方式を採用しないのはfonts.comとGoogle Fontsのみ
+# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle②{#tommy-2}
 
-# 利用規約からみた<br/>Webフォントサービスの3類型{#}
-
-- ⓐ…「利用者のWebサイト以外での使用を禁止」方式
-- ⓑ…「利用者がデザイン、開発、作成するWebサイト以外を禁止」方式
-- ⓒ…「印刷物／Webサイトデザイン／電子書籍を許諾」方式
-    - ⓒ-b…「印刷物／利用者のWebサイトデザインを許諾」方式
-
-→ⓑはAdobe Fonts、ⓒはダイナコムウェア、ⓐはそれ以外全部
-
-# ⓐ「利用者のWebサイト以外での使用を禁止」方式{#}
-
-- [FONTPLUS](https://fontplus.jp/terms)、[TypeSquare](https://typesquare.com/ja/privacy/rule)、[fonts.com](https://www.fonts.com/info/legal/eula/pay-once)、[REALTYPE](https://info.realtype.jp/terms/%e5%88%a9%e7%94%a8%e8%a6%8f%e7%b4%84/)
-- 実際には「利用者のWebサイト」の定義が曖昧
-   - たとえば作成者と所有者が分離している場合
-        - Webデザイナーが制作するWebサイト
-        - 「利用者」はWebデザイナーかサイト所有者か？
-    - そこでドメインを登録してもらい「利用者」を特定
-        - つまり利用規約＋その運用によって問題を解決
-
-# ⓑ利用者がデザイン、開発、作成するWebサイト以外を禁止方式{#}
-
-- [Adobe Fonts](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
-- 「利用者のWebサイト以外での使用を禁止」方式の修正版
-- 利用者の**使途**を定義することで許諾範囲を明確化
-    - 単に「利用者のWebサイト」ではなく「利用者がデザイン、開発、作成するWebサイト」と使途を明確化
-        - ドメイン登録はなし
-    - →Dreamweaverで仕事をする人（クリエイター）のための利用規約
-
-# ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式{#}
+- Markdownのメリット・デメリット
+    - Markdownが使うことで執筆とデザインを分離できる
+    - その一方で図版キャプション等、記法に限界がある
 
 
 
-- [DynaSmartV](https://www.dynacw.co.jp/FileUpload/Portals/file/DynaSmart/DynaSmartV-license.pdf)に付帯するDynaFont Online
-    - ローカルフォント年間ライセンスにWebフォントサービスが付帯している 
-        - ローカルフォントとWebフォントが同じ利用規約
-        - ローカルフォントと同じ許諾範囲でWebフォントが使える
-- **ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式**
-    - [DynaSmartT](https://www.dynacw.co.jp/FileUpload/Portals/file/DynaSmart/DynaSmartT-license.pdf)に有償オプションでDynaFont Onlineが利用可能
-    - ⓒと同じ構造だが、範囲を絞っている
+# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle③{#tommy-3}
 
-</div>
+- Vivliostyleのメリット・デメリット
+   - VFMなら図版キャプションができる
+   - SCSSでスタイル指定できる
+   - ページごとにスタイルを変えられる
+   - PDF出力が簡単
+   - しかし、tableにキャプションが入れられない
 
-# Vivliostyleで利用できる<br/>Webフォントサービス{#}
+# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle④{#tommy-4}
+
+- 作者のとみー氏は10月開発者会議でさらに詳しく報告
+    - [製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
+- VivliostyleのSlackで公開しています
+
+# ファーストマリンサービス(株)の活用事例①{#fms-1}
+
+- 同社は国際輸送の船舶管理会社
+- 同社が管理する船舶は世界中に散在している
+- 海外運行中の船舶向け各種書類を、Vivliostyle Pubで作成
+
+
+# ファーストマリンサービス(株)の活用事例②{#fms-2}
 
 - 基本的には契約者間で決めること
 - 第三者であるVivliostyleが利用保証はできない
