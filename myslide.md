@@ -9,7 +9,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 ### 2022年11月20日<br/>Vivliostyle ユーザーと開発者の集い2022秋
 
 
-# 2. 本日のアジェンダ{#agenda}
+# 本日のアジェンダ{#agenda}
 
 - Vivliostyle.jsは組版エンジンです
 - それと同時に、ライブラリです
@@ -18,7 +18,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - つまり、Vivliostyleにはたくさんの未来があり得ます
 
 
-# 3. Vivliostyleといえば印刷用PDFの作成？{#preconception}
+# Vivliostyleといえば印刷用PDFの作成？{#preconception}
 
 - 技術書典が近づくとVivliostyle CLIのダウンロードが増える
 - 印刷用PDFの作成はVivliostyleのブルーオーシャン
