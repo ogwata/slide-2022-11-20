@@ -18,14 +18,14 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - つまり、Vivliostyleにはたくさんの未来があり得ます
 
 
-# Vivliostyleといえば印刷用PDFの作成？{#preconception}
+# Vivliostyleといえば<br/>印刷用PDFの作成？{#preconception}
 
 - 技術書典が近づくとVivliostyle CLIのダウンロードが増える
 - 印刷用PDFの作成はVivliostyleのブルーオーシャン
 - しかし、Vivliostyleの用途ってそれだけ？
 
 
-# Webフォントを読み込む方法{#}
+# 9月に話題になったQiitaの記事{qiita#}
 
 - ①@font-face
      - サーバに置いたフォントを読み込む
