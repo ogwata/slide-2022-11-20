@@ -11,8 +11,11 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # 2. 本日のアジェンダ{#agenda}
 
-- Vivliostyle.jsはライブラリです
-- その用途は思われているよりずっと多様です
+- Vivliostyle.jsは組版エンジンです
+- それと同時に、ライブラリです
+- ライブラリはアプリを構成する部品です
+- Vivliostyle.jsから、また別のアプリが作れるわけです
+- つまり、Vivliostyleにはたくさんの未来があり得ます
 
 
 # 3. Vivliostyleといえば印刷用PDFの作成？{#preconception}
