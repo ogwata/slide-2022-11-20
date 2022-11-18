@@ -1,6 +1,7 @@
 # Vivliostyle、<br/>もう一つのブルーオーシャン
 
-Slide 2022-11-20
+2022-11-20<br/>
+[CSS組版 Vivliostyle ユーザーと開発者の集い 2022秋](https://vivliostyle.connpass.com/event/264332/)
 
 ## References
 
