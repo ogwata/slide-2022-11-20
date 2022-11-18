@@ -2,9 +2,6 @@
 title: Vivliostyle、もう一つのブルーオーシャン
 ---
 
-<script>FontJSON={User:"42596" ,DomainID:"D0008738MFR", Font:["DFUDMinchoJP13N-W2","DFKingGothicJP16-Light","DFKingGothicJP16N-Medium","DFKingGothicJP16N-Semibold","DFKaiShoStd-W5"]}</script>
-<script src='https://dfo.dynacw.co.jp/JSDynaFont/DynaFont.js'></script>
-
 # Vivliostyle<br/>もう一つのブルーオーシャン{.cover}
 
 ## 小形克宏
