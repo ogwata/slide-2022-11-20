@@ -25,37 +25,38 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - しかし、Vivliostyleの用途ってそれだけ？
 
 
-# 社内文書の共同編集の事例{qiita#}
+# 社内文書の共同編集の事例{#tommy-1}
+
+<div style="font-size: 96%;">
 
 - 9月に話題になったQiitaの記事 
-- [納品ドキュメントの作成に<br/>Markdown+Vivliostyleを採用した話](https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e)
+- [納品ドキュメントの作成にMarkdown+Vivliostyleを採用した話](https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e)
     - 社内文書の共同編集／閲覧にVivliostyleを利用
-    - ざっと趣旨を紹介→
+    - ざっとその趣旨を紹介→
 
-# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle①{#tommy-1}
+</div>
 
-- 社内文書にWordを使うデメリット
+# WordとをMarkdownの比較{#tommy-2}
+
+- Wordの困ったところ
     - 共同編集すると、編集したところが消える
     - フォントやデザインがなぜか統一されない
     - セクションごとに担当を分けても、マージが手作業
-
-
-# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle②{#tommy-2}
-
-- Markdownのメリット・デメリット
+- Markdownにも得失がある
     - Markdownが使うことで執筆とデザインを分離できる
     - その一方で図版キャプション等、記法に限界がある
 
-
-
-# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle③{#tommy-3}
+# そこでVivliostyleを使ったら{#tommy-3}
 
 - Vivliostyleのメリット・デメリット
-   - VFMなら図版キャプションができる
-   - SCSSでスタイル指定できる
-   - ページごとにスタイルを変えられる
-   - PDF出力が簡単
-   - しかし、tableにキャプションが入れられない
+    - VFMなら図版キャプションができる
+    - SCSSでスタイル指定できる
+    - ページごとにスタイルを変えられる
+    - PDF出力が簡単
+    - しかし、tableにキャプションが入れられない
+- 作者のとみー氏は10月開発者会議でさらに詳しく報告
+    - →[製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
+    - VivliostyleのSlackで公開しています
 
 # 納品ドキュメントの作成に<br/>Markdown+Vivliostyle④{#tommy-4}
 
