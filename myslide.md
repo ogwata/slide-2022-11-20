@@ -58,17 +58,14 @@ title: Vivliostyle、もう一つのブルーオーシャン
     - →[製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
     - VivliostyleのSlackで公開しています
 
-# 納品ドキュメントの作成に<br/>Markdown+Vivliostyle④{#tommy-4}
 
-- 作者のとみー氏は10月開発者会議でさらに詳しく報告
-    - [製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
-- VivliostyleのSlackで公開しています
-
-# ファーストマリンサービス(株)の活用事例①{#fms-1}
+# ファーストマリンサービス(株){#fms-1}
 
 - 同社は国際輸送の船舶管理会社
 - 同社が管理する船舶は世界中に散在している
 - 海外運行中の船舶向け各種書類を、Vivliostyle Pubで作成
+
+![](FMS-system.jpg){width=50% margin:auto;}
 
 # ファーストマリンサービス(株)の活用事例②{#fms-2}
 
@@ -78,9 +75,8 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 ![](FMS-system.jpg){width=64% margin:auto;}
 
-# ファーストマリンサービス(株)の活用事例④{#fms-4}
 
-![](FMS-system.jpg){width=64% margin:auto;}
+
 
 # 置かれる場所ごとの<br/>Webフォント利用可否②{#}
 
