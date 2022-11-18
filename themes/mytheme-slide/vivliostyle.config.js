@@ -1,6 +1,6 @@
 module.exports = {
   language: 'ja',
-  theme: 'theme_print.css',
+  theme: 'themes/mytheme-slide/theme_common.css',
   entry: ['example/slide.md'],
   output: [
     'book.pdf',
