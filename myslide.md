@@ -17,11 +17,11 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - あなたがそれを作りさえすれば
 
 
-# Vivliostyleといえば<br/>印刷用PDFの作成？{#preconception}
+# Vivliostyleといえば<br/>印刷用PDF作成{#preconception}
 
 - 技術書典が近づくとVivliostyle CLIのダウンロードが増える
-- 印刷用PDFの作成はVivliostyleのブルーオーシャン
-- しかし、Vivliostyleの用途ってそれだけ？
+- Vivliostyleにとって印刷用PDF作成はブルーオーシャン
+- しかし、Vivliostyleの用途はそれだけ？
 
 
 # 社内文書の共同編集の事例{#tommy-1}
