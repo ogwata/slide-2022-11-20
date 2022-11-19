@@ -82,7 +82,7 @@ author: Katsuhiro Ogata
 
 <div style="text-align:center">
 
-![](FMS-system.jpg){width=80%}
+![](FMS-system.jpg){width=76%}
 
 </div>
 
@@ -90,7 +90,7 @@ author: Katsuhiro Ogata
 
 <div style="text-align:center">
 
-![画像、表組のある英語文書](FMS_sample-b.png){width=67%}
+![画像、表組のある英語文書](FMS_sample-b.png){width=63%}
 
 </div>
 
@@ -98,7 +98,7 @@ author: Katsuhiro Ogata
 
 <div style="text-align:center">
 
-![日本語文書、表組はMarkdown](FMS_sample-c.png){width=71%}
+![日本語文書、表組はMarkdown](FMS_sample-c.png){width=69%}
 
 </div>
 
@@ -109,11 +109,11 @@ author: Katsuhiro Ogata
     - 非エンジニアでもブランチを使って共同編集できる
     - つまり、共同編集はもう一つのブルーオーシャン
 
-# とみーさんのスライドから引用{#fms-5}
+# とみー氏のスライドから引用{#fms-5}
 
 <div style="text-align:center">
 
-![「製造業でドキュメントをVivliostyleで運用した話」より](slides-export.jpg){width=88%}
+![「製造業でドキュメントをVivliostyleで運用した話」より](slides-export.jpg){width=83%}
 
 </div>
 
