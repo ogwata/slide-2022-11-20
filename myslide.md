@@ -66,7 +66,11 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - 海外運行中の船舶向け書類をVivliostyle Pubで共同編集
 - 現在まで300本以上の文書をVivliostyle Pubで作成
 
+<div style="text-align:center">
+
 ![](FMS-system.jpg){width=55%}
+
+</div>
 
 # {#fms-2}
 
