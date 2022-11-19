@@ -64,7 +64,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 - 同社は国際輸送の船舶管理会社
 - 海外運行中の船舶向け書類をVivliostyle Pubで共同編集
-- 現在まで約300本の文書をVivliostyle Pubで作成
+- 現在まで300本以上の文書をVivliostyle Pubで作成
 
 ![](FMS-system.jpg){width=55% margin:auto;}
 
