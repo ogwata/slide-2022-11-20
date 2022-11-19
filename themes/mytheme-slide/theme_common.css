@@ -9,10 +9,10 @@ html {
 }
 
 @page {
-  size: 250mm 148mm;
-  margin: 12mm 25mm;
+  size: 210mm 148mm;
+  margin: 12mm 15mm;
   font-size: 11pt;
-  line-height: 1.5;
+  line-height: 1.2;
 
   @bottom-center {
     content: counter(page);
