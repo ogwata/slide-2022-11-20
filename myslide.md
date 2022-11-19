@@ -68,7 +68,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 <div style="text-align:center">
 
-![キャプションです](FMS-system.jpg){width=45%}
+![](FMS-system.jpg){width=55%}
 
 </div>
 
