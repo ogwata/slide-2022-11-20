@@ -56,7 +56,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
     - PDF出力が簡単
     - しかし、表にキャプションが入れられない
 - **10月開発者会議で作者のとみー氏がさらなる詳細を報告**
-    - →[製造業でドキュメントをVivliostyleで運用した話](https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e)
+    - →[製造業でドキュメントをVivliostyleで運用した話](https://vivliostyle.slack.com/archives/CAECW4S93/p1664603649765059)
     - VivliostyleのSlackで公開中
 
 # まとめ{#tommy-4}
@@ -100,9 +100,15 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # まとめ{#fms-4}
 
--　非エンジニア・ユーザでも保護されたブランチを使って共同編集
-- 
+- 前述Vivliostyleのメリットはエンジニアだけのものではない
+    - 非エンジニアでもGitを使ってバージョン管理ができる
+    - 非エンジニアでもブランチを使って共同編集できる
 
+# とみーさんのスライドから引用
 
-**ありがとうございました**
+<div style="text-align:center">
+
+![「製造業でドキュメントをVivliostyleで運用した話」より](slides-export.jpg){width=93%}
+
+</div>
 
