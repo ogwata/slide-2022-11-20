@@ -122,10 +122,7 @@ author: Katsuhiro Ogata
 - [vivliostyle/vivliostyle-sitegen（開発中）](https://github.com/vivliostyle/vivliostyle-sitegen)
     - Vivliostyleのサイトの制作用CMSとしてスタート
     - 別の言い方をすると、VFMを使えるCMS
+    - 共同編集でサイト制作ができる
     - 書籍作成からサイト制作に、用途を広げる新規プロダクト
     - ただし、メンテナーakabeko氏が多忙で開発中断
-
-
-# ほかには？②
-
-- 
+- 共同編集
