@@ -71,9 +71,9 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # ファーストマリンサービス(株){#fms-1}
 
-- 同社は国際輸送の船舶管理会社
+- 同社は国際輸送の船舶管理会社（非エンジニア・ユーザ）
 - 海外運行中の船舶向け書類をVivliostyle Pubで共同編集
-- 現在まで300本以上の文書をVivliostyle Pubで作成
+- 現在まで300本以上の文書を作成
 
 <div style="text-align:center">
 
@@ -85,7 +85,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 <div style="text-align:center">
 
-![画像、表組のある英語文書](FMS_sample-b.png){width=71% margin:auto;}
+![画像、表組のある英語文書](FMS_sample-b.png){width=71%}
 
 </div>
 
@@ -93,25 +93,13 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 <div style="text-align:center">
 
-![日本語文書、表組はMarkdown](FMS_sample-c.png){width=71% margin:auto;}
+![日本語文書、表組はMarkdown](FMS_sample-c.png){width=71%}
 
 </div>
 
-# 置かれる場所ごとの<br/>Webフォント利用可否②{#}
+# まとめ{#fms-4}
 
-<div style="font-size: 90%;">
 
-- **Ⓑ自分のPC上のVivliostyle（http://localhost）**
-    - ⓐ「利用者のWebサイト以外での使用を禁止」方式
-        - 「利用者のWebサイト」なので🙆
-    - ⓑ利用者がデザイン、開発、作成するページ以外を禁止方式
-        - 「利用者がデザイン、開発、作成したWebサイト」なので🙆
-    - ⓒ「印刷物／Webサイトデザイン／電子書籍を許諾」方式
-        - 「Webサイトのデザイン制作」なので🙆
-    - ⓒ-b「印刷物／利用者のWebサイトデザインを許諾」方式
-        - 「利用者のWebサイト」なので🙆
-
-</div>
 
 # プロダクトごとの利用可否①{#}
 
