@@ -37,25 +37,25 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # WordとMarkdownの比較{#tommy-2}
 
-- Wordの困ったところ
+- **Wordの困ったところ**
     - 共同編集すると、編集したところが消える
     - フォントやデザインがなぜか統一されない
     - セクションごとに担当を分けても、マージが手作業
-- Markdownを使うとよいが、デメリットも
+- **Markdownを使うとよいが、デメリットも**
     - 執筆とデザインを分離できる
     - マージするのにGitHub（ブランチ）を使える
     - その一方で図版キャプション等、記法に限界がある
 
 # そこでVivliostyleを使ったら{#tommy-3}
 
-- Vivliostyleのメリット・デメリット
+- **Vivliostyleのメリット・デメリット**
     - （Markdownのメリットに加えて）
     - VFMなら図版キャプションが使える
     - SCSSでスタイル指定できる
     - ページごとにスタイルを変えられる
     - PDF出力が簡単
     - しかし、表にキャプションが入れられない
-- 作者のとみー氏は10月開発者会議でさらに詳しく報告
+- **10月開発者会議で作者のとみー氏がさらなる詳細を報告**
     - →[製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
     - VivliostyleのSlackで公開中
 
