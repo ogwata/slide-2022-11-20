@@ -56,7 +56,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
     - PDF出力が簡単
     - しかし、表にキャプションが入れられない
 - **10月開発者会議で作者のとみー氏がさらなる詳細を報告**
-    - →[製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
+    - →[製造業でドキュメントをVivliostyleで運用した話](https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e)
     - VivliostyleのSlackで公開中
 
 # まとめ{#tommy-4}
