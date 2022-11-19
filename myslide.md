@@ -1,5 +1,7 @@
 ---
+lang: ja
 title: Vivliostyle、もう一つのブルーオーシャン
+author: Katsuhiro Ogata
 ---
 
 # Vivliostyle<br/>もう一つのブルーオーシャン{.cover}
