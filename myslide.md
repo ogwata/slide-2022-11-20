@@ -74,15 +74,19 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # {#fms-2}
 
+<div style="text-align:center">
+
 ![](FMS_sample-b.png){width=55% margin:auto;}
+
+</div>
 
 # 日本語の文書も{#fms-3}
 
+<div style="text-align:center">
+
 ![](FMS_sample-c.png){width=50% margin:auto;}
 
-
-
-
+</div>
 
 # 置かれる場所ごとの<br/>Webフォント利用可否②{#}
 
