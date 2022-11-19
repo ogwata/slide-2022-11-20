@@ -63,10 +63,10 @@ title: Vivliostyle、もう一つのブルーオーシャン
 # ファーストマリンサービス(株){#fms-1}
 
 - 同社は国際輸送の船舶管理会社
-- 同社が管理する船舶は世界中に散在している
-- 海外運行中の船舶向け各種書類を、Vivliostyle Pubで作成
+- 海外運行中の船舶向け書類をVivliostyle Pubで共同編集
+- 現在まで約300本の文書をVivliostyle Pubで作成
 
-![](S.C.A.M.P.E.R.(1).jpg){width=50% margin:auto;}
+![](FMS-system.jpg){width=55% margin:auto;}
 
 # ファーストマリンサービス(株)の活用事例②{#fms-2}
 
