@@ -117,7 +117,7 @@ author: Katsuhiro Ogata
 
 </div>
 
-# ほかには？①
+# ほかには？
 
 - [vivliostyle/vivliostyle-sitegen（開発中）](https://github.com/vivliostyle/vivliostyle-sitegen)
     - Vivliostyleのサイトの制作用CMSとしてスタート
