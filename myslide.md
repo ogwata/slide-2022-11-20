@@ -67,7 +67,7 @@ author: Katsuhiro Ogata
     - {冪等性|べきとうせい}：編集してもスタイルが変わらない
     - Gitを使ってバージョン管理ができる
     - 共同編集がしやすい
-    - PDFにも出力可能
+    - その上、PDFにも出力可能
 - これらのメリットは、印刷用PDF作成でも同じ
 - **つまり、これらのメリットが生きる用途ならVivliostyleは使える**
 
@@ -115,9 +115,15 @@ author: Katsuhiro Ogata
 
 </div>
 
-# ほかには？
+# ほかには？①
 
 - [vivliostyle/vivliostyle-sitegen（開発中）](https://github.com/vivliostyle/vivliostyle-sitegen)
-    - Vivliostyleのサイト制作用ドッグフーディングとしてスタート
-    - VFMを使えるCMS
-    - 
+    - Vivliostyleのサイトの制作用CMSとしてスタート
+    - 別の言い方をすると、VFMを使えるCMS
+    - 書籍作成からサイト制作に、用途を広げる新規プロダクト
+    - ただし、メンテナーakabeko氏が多忙で開発中断
+
+
+# ほかには？②
+
+- 
