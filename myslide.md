@@ -66,7 +66,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - 同社が管理する船舶は世界中に散在している
 - 海外運行中の船舶向け各種書類を、Vivliostyle Pubで作成
 
-![](FMS-system.jpg){width=50% margin:auto;}
+![](S.C.A.M.P.E.R.(1).jpg){width=50% margin:auto;}
 
 # ファーストマリンサービス(株)の活用事例②{#fms-2}
 
