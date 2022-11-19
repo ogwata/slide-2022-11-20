@@ -78,9 +78,11 @@ author: Katsuhiro Ogata
 - 海外運行中の船舶向け書類をVivliostyle Pubで共同編集
 - 今年1月以来、現在まで300本以上の文書を作成
 
+# Vivliostyle Pub + GitHub
+
 <div style="text-align:center">
 
-![](FMS-system.jpg){width=55%}
+![](FMS-system.jpg){width=80%}
 
 </div>
 
