@@ -19,7 +19,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 # Vivliostyleといえば<br/>印刷用PDF作成{#preconception}
 
-- 技術書典が近づくとVivliostyle CLIのダウンロードが増える
+- 技術書典が近づくとVivliostyle CLIのダウンロードが急増
 - Vivliostyleにとって印刷用PDF作成はブルーオーシャン
 - しかし、Vivliostyleの用途はそれだけ？
 
@@ -64,9 +64,10 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - **Vivliostyleの良いところ**
     - {冪等性|べきとうせい}：編集してもスタイルが変わらない
     - Gitを使ってバージョン管理ができる
-    - グループ編集がしやすい
+    - 共同編集がしやすい
     - PDFにも出力可能
-- **→印刷用PDFの作成以外にもVivliostyleは使える**
+- これらのメリットは、印刷用PDF作成でも同じ
+- **つまり、これらのメリットが生きる用途ならVivliostyleは使える**
 
 
 # [ファーストマリンサービス(株)](https://fmarine.co.jp/){#fms-1}
