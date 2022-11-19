@@ -69,7 +69,7 @@ author: Katsuhiro Ogata
     - 共同編集がしやすい
     - その上、PDFにも出力可能
 - これらのメリットは、印刷用PDF作成でも同じ
-- **つまり、これらのメリットが生きる用途ならVivliostyleは使える**
+- **これらのメリットが生きる用途ならVivliostyleは使える**
 
 
 # [ファーストマリンサービス(株)](https://fmarine.co.jp/){#fms-1}
