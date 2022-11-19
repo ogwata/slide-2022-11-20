@@ -68,13 +68,14 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 ![](FMS-system.jpg){width=55% margin:auto;}
 
-# ファーストマリンサービス(株)の活用事例②{#fms-2}
+# {#fms-2}
 
-![](FMS_sample-b.png){width=64% margin:auto;}
+![](FMS_sample-b.png){width=55% margin:auto;}
 
-# ファーストマリンサービス(株)の活用事例③{#fms-3}
+# 日本語の文書も{#fms-3}
 
-![](FMS-system.jpg){width=64% margin:auto;}
+![](FMS_sample-c.png){width=50% margin:auto;}
+
 
 
 
