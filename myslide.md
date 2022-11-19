@@ -43,20 +43,21 @@ title: Vivliostyle、もう一つのブルーオーシャン
     - セクションごとに担当を分けても、マージが手作業
 - Markdownを使うとよいが、デメリットも
     - 執筆とデザインを分離できる
-    - マージするのにGitHubを使える
+    - マージするのにGitHub（ブランチ）を使える
     - その一方で図版キャプション等、記法に限界がある
 
 # そこでVivliostyleを使ったら{#tommy-3}
 
 - Vivliostyleのメリット・デメリット
-    - VFMなら図版キャプションができる
+    - （Markdownのメリットに加えて）
+    - VFMなら図版キャプションが使える
     - SCSSでスタイル指定できる
     - ページごとにスタイルを変えられる
     - PDF出力が簡単
-    - しかし、tableにキャプションが入れられない
+    - しかし、表にキャプションが入れられない
 - 作者のとみー氏は10月開発者会議でさらに詳しく報告
     - →[製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
-    - VivliostyleのSlackで公開しています
+    - VivliostyleのSlackで公開中
 
 
 # ファーストマリンサービス(株){#fms-1}
