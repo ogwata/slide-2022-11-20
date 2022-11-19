@@ -90,7 +90,7 @@ author: Katsuhiro Ogata
 
 <div style="text-align:center">
 
-![画像、表組のある英語文書](FMS_sample-b.png){width=71%}
+![画像、表組のある英語文書](FMS_sample-b.png){width=67%}
 
 </div>
 
@@ -113,7 +113,7 @@ author: Katsuhiro Ogata
 
 <div style="text-align:center">
 
-![「製造業でドキュメントをVivliostyleで運用した話」より](slides-export.jpg){width=93%}
+![「製造業でドキュメントをVivliostyleで運用した話」より](slides-export.jpg){width=88%}
 
 </div>
 
