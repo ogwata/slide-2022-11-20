@@ -115,4 +115,9 @@ author: Katsuhiro Ogata
 
 </div>
 
+# ほかには？
 
+- [vivliostyle/vivliostyle-sitegen（開発中）](https://github.com/vivliostyle/vivliostyle-sitegen)
+    - Vivliostyleのサイト制作用ドッグフーディングとしてスタート
+    - VFMを使えるCMS
+    - 
