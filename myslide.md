@@ -59,6 +59,15 @@ title: Vivliostyle、もう一つのブルーオーシャン
     - →[製造業でドキュメントをVivliostyleで運用した話](https://wwwimages2.adobe.com/content/dam/cc/jp/legal/servicetou/Adobe_Fonts_Additional_Terms_ja_JP_20200416.pdf)
     - VivliostyleのSlackで公開中
 
+# まとめ{#tommy-4}
+
+- **Vivliostyleの良いところ**
+    - {冪等性|べきとうせい}：編集してもスタイルが変わらない
+    - Gitを使ってバージョン管理ができる
+    - グループ編集がしやすい
+    - PDFにも出力可能
+- **→印刷用PDFの作成以外にもVivliostyleは使える**
+
 
 # ファーストマリンサービス(株){#fms-1}
 
@@ -72,19 +81,19 @@ title: Vivliostyle、もう一つのブルーオーシャン
 
 </div>
 
-# {#fms-2}
+# 実際の文書を紹介①{#fms-2}
 
 <div style="text-align:center">
 
-![](FMS_sample-b.png){width=55% margin:auto;}
+![画像、表組のある英語文書](FMS_sample-b.png){width=71% margin:auto;}
 
 </div>
 
-# 日本語の文書も{#fms-3}
+# 実際の文書を紹介②{#fms-3}
 
 <div style="text-align:center">
 
-![](FMS_sample-c.png){width=50% margin:auto;}
+![日本語文書、表組はMarkdown](FMS_sample-c.png){width=71% margin:auto;}
 
 </div>
 
