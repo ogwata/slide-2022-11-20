@@ -69,7 +69,7 @@ title: Vivliostyle、もう一つのブルーオーシャン
 - **→印刷用PDFの作成以外にもVivliostyleは使える**
 
 
-# ファーストマリンサービス(株){#fms-1}
+# [ファーストマリンサービス(株)](https://fmarine.co.jp/){#fms-1}
 
 - 同社は国際輸送の船舶管理会社（非エンジニア・ユーザ）
 - 海外運行中の船舶向け書類をVivliostyle Pubで共同編集
