@@ -78,7 +78,7 @@ author: Katsuhiro Ogata
 - 海外運行中の船舶向け書類をVivliostyle Pubで共同編集
 - 今年1月以来、現在まで300本以上の文書を作成
 
-# Vivliostyle Pub + GitHub
+# Vivliostyle Pubで文書作成
 
 <div style="text-align:center">
 
@@ -126,3 +126,13 @@ author: Katsuhiro Ogata
     - 書籍作成からサイト制作に、用途を広げる新規プロダクト
     - ただし、メンテナーakabeko氏が多忙で開発中断
     - 誰か、開発に参加できる方はいませんか⁉︎
+
+# ブラウザCSSの素通しモード追加
+
+- 村上代表のアイデア
+- Vivliostyle.js 2.16.0 (2022-07-19)でのアップデート
+   - 従来は、ブラウザはサポートしているがVivliostyle.js未サポートのCSS機能は使えなかった
+   - 2.16.0 (2022-07-19)でCSSバリデータを改善、ブラウザがパースするCSS機能をそのまま通すようになった
+   - それをさらに進め、ブラウザのCSSだけを通す（素通しにする）モードを追加できないか
+
+# 
