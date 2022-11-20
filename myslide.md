@@ -159,7 +159,10 @@ author: Katsuhiro Ogata
         - CSS text-spacingプロパテなど
     - また高機能Markdown方言、VFMを使えるメリットは残る
 
-# Vivliostyleの未来はコミッター次第
+# Vivliostyleの未来は<br/>コミッターが決める
 
-- 
+- ぜひVivliostyleを使ってフィードバックしてください
+   - GitHubのissueだけでなく、TwitterでもSlackでもOK!
+- **もし可能なら、あなたも開発に加わってください**
+- 一緒にVivliostyleの次のブルーオーシャンを探しましょう！
 
