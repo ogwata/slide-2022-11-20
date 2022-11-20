@@ -161,8 +161,10 @@ author: Katsuhiro Ogata
 
 # Vivliostyleの未来は<br/>コミッターが決める
 
+- 村上代表ひとりの開発では限界がある
+- コミッターの参加が不可欠
 - ぜひVivliostyleを使ってフィードバックしてください
    - GitHubのissueだけでなく、TwitterでもSlackでもOK!
 - **もし可能なら、あなたも開発に加わってください**
-- 一緒にVivliostyleの次のブルーオーシャンを探しましょう！
+- 一緒に次のブルーオーシャンを探しましょう！
 
