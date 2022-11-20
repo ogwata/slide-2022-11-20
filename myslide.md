@@ -11,12 +11,12 @@ author: Katsuhiro Ogata
 ### 2022年11月20日<br/>Vivliostyle ユーザーと開発者の集い2022秋
 
 
-# 本日のアジェンダ{#agenda}
+# 本日お伝えしたいこと{#agenda}
 
 - Vivliostyle.jsはライブラリです
 - つまりVivliostyle.jsから、新たなアプリが作れます
 - Vivliostyleは思われている以上の、たくさんの未来があります
-- あなたがそれを作りさえすれば
+- あなたがそれを作りさえすれば。
 
 
 # Vivliostyleといえば<br/>印刷用PDF作成{#preconception}
@@ -33,7 +33,7 @@ author: Katsuhiro Ogata
 - 9月に話題になったQiitaの記事 
 - [納品ドキュメントの作成にMarkdown+Vivliostyleを採用した話](https://qiita.com/tommyecguitar/items/2d1817cc8a09c15ad43e)
     - 社内文書の共同編集／閲覧にVivliostyleを利用
-    - ざっとその趣旨を紹介→
+    - 以下、ざっとその趣旨を紹介→
 
 </div>
 
