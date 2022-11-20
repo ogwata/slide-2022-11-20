@@ -129,7 +129,7 @@ author: Katsuhiro Ogata
 
 # ブラウザCSSだけのモードを追加
 
-<div style="font-size: 90%;">
+<div style="font-size: 85%;">
 
 - 村上代表のアイデア（未Issue）
 - Vivliostyle.js 2.16.0 (2022-07-19)でのアップデート
